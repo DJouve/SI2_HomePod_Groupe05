@@ -27,7 +27,7 @@ body {
 /* Menu */
 
 #header{
-    background-color: rgba(45,45,45,0.98);
+    background: linear-gradient(to right, #777dff,#497ce2, #37bdde, #f154ff, #f0357c);
 }
 
 .primaryMenu {
@@ -35,8 +35,8 @@ body {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    width: 1000;
-    height: 44px;
+    width: 100%;
+    height: 48px;
     margin: 0;
     padding: 0;
 }
@@ -51,8 +51,8 @@ body {
     font-size: 14px;
 }
 .menuItem:hover a{
-    opacity: 0.5;
-    transition: 0.4s;
+    opacity: 0.65;
+    transition: 0.2s;
 }
 .menuItem a img{
     height: 14px;
