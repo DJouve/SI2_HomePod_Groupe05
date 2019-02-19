@@ -17,8 +17,8 @@ body {
 
 .primaryMenu {
     display: flex;
+    justify-content: space-between;
     list-style: none;
-    font-size: 17px;
     width: 100%;
     line-height: 3.14286;
     margin: 0;
@@ -26,8 +26,21 @@ body {
 
 .menuItem {
     flex-direction: row;
-    margin-left: 20px;
     position: relative;
+}
+
+
+.menuItem:hover .subMenu {
+    display: block;
+}
+
+.menuItem a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.menuItem:hover a{
+    color: #999;
 }
 
 .subMenu {
@@ -37,16 +50,6 @@ body {
     list-style: none;
     position: absolute;
 }
-
-.menuItem:hover .subMenu {
-    display: block;
-}
-
-.menuItem a {
-    text-decoration: none;
-    color: white;
-}
-
 .subMenu a {
     text-decoration: none;
     color: #333;
