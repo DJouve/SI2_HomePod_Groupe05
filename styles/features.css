@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "SF Pro Text";
+    font-weight: normal;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+@font-face{
+    font-family: "SF Pro Text Bold";
+    font-weight: bold;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+
+.flex{
+    display: flex;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* Menu */
+
+#header{
+    background: linear-gradient(to right, #777dff,#497ce2, #37bdde, #f154ff, #f0357c);
+}
+
+.primaryMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    height: 48px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    padding: 0;
+}
+.menuItem {
+    flex-direction: row;
+    position: relative;
+}
+.menuItem a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.menuItem:hover a{
+    opacity: 0.65;
+    transition: 0.2s;
+}
+.menuItem a img{
+    height: 14px;
+}
+#logo{
+    font-size: 16px;
+    font-family: "SF Pro Text Bold";
+}
+/* Button acheter */
+
+.buy_button{
+    background-color: #0070c9;
+    background: linear-gradient(#42a1ec,#0070c9);
+    border-color: #07c;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+.buy_button:hover{
+    background-color: #147bcd;
+    background: linear-gradient(#51a9ee,#147bcd);
+    border-color: #1482d0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Boutton Propre */
+
+
+/* Submenu */
+
+.subMenu {
+    padding: 0px;
+    margin: 0px;
+    display: none;
+    list-style: none;
+    position: absolute;
+}
+.subMenu a {
+    text-decoration: none;
+    color: #333;
+    background: white;
+}
+.menuItem:hover .subMenu {
+    display: block;
+}
+
+/*HomePod*/
+
+.homepod{
+    background: white;
+    height: 60px;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.homepod span{
+    position: absolute;
+    bottom: 6px;
+    font-size: 30px;
+    font-weight: bold;
+    color: grey;
+}
+/* Contenu du main*/
+
+/*image enceinte*/
+.loudspeaker img{
+    width: 500px;
+    height: 450px;
+    padding: 0px;
+}
+
+/*catchphrases*/
+.catchphrase{
+    width: 400px;
+    text-align: center;
+    flex-direction: row;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+/* Div caractéristiques*/
+.caract{
+    width: 400px;
+    flex-direction: row;
+    padding: 20px;
+    box-shadow: 2px 4px 6px #999;
+}
+.caract h3{
+    text-align: center;
+    color: #999;
+    font-size: 25px;
+}
