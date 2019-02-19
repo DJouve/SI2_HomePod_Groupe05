@@ -147,10 +147,52 @@ ul{
     width: 400px;
     flex-direction: row;
     padding: 20px;
-    box-shadow: 2px 4px 6px #999;
+    box-shadow: 1px 1px 4px #999;
+    border-radius:4px; 
 }
 .caract h3{
+    margin: 0 auto;
     text-align: center;
     color: #999;
     font-size: 25px;
+    padding: 10px;
+}
+.container_caract{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.container_caract h4{
+    margin: 0 auto;
+    color: #999;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    width: 92px;
+}
+.container_caract p{
+    text-align: center;
+    margin: 0 auto;
+    width: 90px;
+    padding: 5px;
+    font-size: 18px;
+    color: #999;
+}
+
+/* Bouton off-set pour les caractéristiques */
+
+.container_button{
+    justify-content: space-around;
+}
+
+.button_offset{
+    width: 80px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px #999;
 }
