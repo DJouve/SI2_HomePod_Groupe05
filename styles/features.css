@@ -120,12 +120,13 @@ ul{
     position: relative;
 }
 
-.homepod span{
+.homepod button{
     position: absolute;
     bottom: 10px;
     font-size: 30px;
     font-weight: bold;
     color: grey;
+    border: 0;
 }
 
 
@@ -235,3 +236,6 @@ ul{
     line-height: 2;
 }
 
+button,.button_offset:hover{
+    cursor: pointer;
+}
