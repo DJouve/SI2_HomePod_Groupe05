@@ -47,15 +47,18 @@ body {
 .menuItem a {
     text-decoration: none;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
 }
 .menuItem:hover a{
-    color: #999;
+    color: #BBB;
 }
 .menuItem a img{
-    top : 10px;
+    height: 14px;
 }
-
+.logo{
+    font-size: 17px;
+    font-weight: bold;
+}
 /* Button acheter */
 
 .buy_button{
