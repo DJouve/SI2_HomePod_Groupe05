@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* Menu */
+
+#header{
+    background-color: rgba(45,45,45,0.98);
+}
+
+.primaryMenu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    height: 48px;
+    line-height: 3.14286;
+    margin: 0;
+}
+
+.menuItem {
+    flex-direction: row;
+    position: relative;
+}
+.menuItem a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.menuItem:hover a{
+    opacity: 0.2;
+    transition: 0.2s;
+}
+.menuItem a img{
+    height: 14px;
+}
+#logo{
+    font-size: 16px;
+    font-weight: bold;
+}
+/* Button acheter */
+
+.buy_button{
+    background-color: #0070c9;
+    background: linear-gradient(#42a1ec,#0070c9);
+    border-color: #07c;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+.buy_button:hover{
+    background-color: #147bcd;
+    background: linear-gradient(#51a9ee,#147bcd);
+    border-color: #1482d0;
+    text-decoration: none;
+}
+
+/* Boutton Propre */
+
+@font-face {
+    font-family: "SF Pro Text";
+    font-weight: normal;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+@font-face{
+    font-family: "SF Pro Text";
+    font-weight: bold;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+/* Submenu */
+
+.subMenu {
+    padding: 0px;
+    margin: 0px;
+    display: none;
+    list-style: none;
+    position: absolute;
+}
+.subMenu a {
+    text-decoration: none;
+    color: #333;
+    background: white;
+}
+.menuItem:hover .subMenu {
+    display: block;
+}
