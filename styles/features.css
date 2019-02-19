@@ -3,11 +3,13 @@
     font-weight: normal;
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
+
 @font-face{
-    font-family: "SF Pro Text";
+    font-family: "SF Pro Text Bold";
     font-weight: bold;
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
 }
+
 
 body {
     margin: 0;
@@ -31,11 +33,12 @@ body {
 .primaryMenu {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     list-style: none;
-    width: 100%;
-    height: 48px;
-    line-height: 3.14286;
+    width: 1000;
+    height: 44px;
     margin: 0;
+    padding: 0;
 }
 
 .menuItem {
@@ -48,15 +51,15 @@ body {
     font-size: 14px;
 }
 .menuItem:hover a{
-    opacity: 0.2;
-    transition: 0.2s;
+    opacity: 0.5;
+    transition: 0.4s;
 }
 .menuItem a img{
     height: 14px;
 }
 #logo{
     font-size: 16px;
-    font-weight: bold;
+    font-family: "SF Pro Text Bold";
 }
 /* Button acheter */
 
@@ -94,4 +97,8 @@ body {
 }
 .menuItem:hover .subMenu {
     display: block;
+}
+
+button:hover{
+    cursor: pointer;
 }
