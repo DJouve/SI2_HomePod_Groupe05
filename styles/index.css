@@ -131,11 +131,14 @@ footer .footer_container .div_1{
 }
 
 
+/* ul et li du footer */
+
 ul {
     padding: 0px;
     list-style:none;
     text-align: center;
 }
+
 
 ul li {
 
@@ -145,13 +148,35 @@ ul li {
 }
 
 
+
+/* Les titres boutons du footers */
 footer a.title_footer {
+    display: block;
+    text-align: center;
+    line-height: 1.5;
+    cursor: pointer;
+    list-style:none;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration:none;
+    color: #333;
+
+
+}
+
+/* Les Sous_titres boutons du footers */
+footer a.subtitle_footer {
     display: block;
     text-align: center;
     line-height: 1.7;
     cursor: pointer;
     list-style:none;
-    font-weight: bold;
     text-decoration:none;
+    color: #333;
 
+}
+
+.div_2_1 p{
+  margin: 0 40px ;
+  padding: 5px 0;
 }
