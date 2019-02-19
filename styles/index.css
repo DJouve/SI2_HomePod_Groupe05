@@ -94,3 +94,60 @@ body {
 .menuItem:hover .subMenu {
     display: block;
 }
+
+
+
+
+/*Footer*/
+
+footer{
+  /* Déclaration du css footer */
+  background-color: #f2f2f2;
+  font-size: 11px;
+  height: auto;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+footer .footer_container {
+    /* Déclaration du css footer .footer_container */
+    padding: 40px;
+
+}
+
+footer .footer_container .div_1{
+  /* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+  background-color: #f2f2f2;
+  font-size: 11px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+ul {
+    padding: 0px;
+    list-style:none;
+    text-align: center;
+}
+
+ul li {
+
+    list-style:none;
+    padding: 2px 0;
+    text-align: center;
+}
+
+
+footer a.title_footer {
+    display: block;
+    text-align: center;
+    line-height: 1.7;
+    cursor: pointer;
+    list-style:none;
+    font-weight: bold;
+    text-decoration:none;
+
+}
