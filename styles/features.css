@@ -302,7 +302,7 @@ ul li {
 
 
 /* Les titres boutons du footers */
-footer a.title_footer {
+footer p.title_footer {
     display: block;
     text-align: center;
     line-height: 1.5;
@@ -337,31 +337,21 @@ footer a.subtitle_footer {
 
 /*RESPONSIVE*/
 
-/*Téléphone Portait*/
-@media only screen and (max-width : 320px) {
+
+/*Téléphone*/
+@media only screen and (max-width : 1024px) {
 /* Styles pour cette Media Queries */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 16px;
+    background-color: yellow;
 }
 
-
-
-/*Téléphone Paysage*/
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-/* Styles pour cette Media Queries */
-}
-
-
-
-/*Ipad Paysage*/
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
-/* Styles pour cette Media Queries */
-}
-
-
-
-
-/*Ipad Portrait*/
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
-/* Styles pour cette Media Queries */
+/*Footer*/
 
 footer .footer_container_1 .col_1{
   /* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
@@ -370,7 +360,35 @@ footer .footer_container_1 .col_1{
   height: auto;
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+footer p.title_footer {
+    padding-top: 5px;
+    display: block;
+    text-align: left;
+    list-style: none;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: #111;
+}
+
+footer a.subtitle_footer {
+    display: block;
+    text-align: center;
+    line-height: 1.7;
+    cursor: pointer;
+    list-style:none;
+    text-decoration:none;
+    color: #555;
+
+}
+
+.col_2_1 p{
+  font-size: 20px;
+
 }
 
 }
@@ -379,8 +397,18 @@ footer .footer_container_1 .col_1{
 
 
 /*Petit ordinateur*/
-@media only screen and (min-width : 1224px){
+@media only screen and (min-width : 1224px) and (max-width : 1824px){
 /* Styles pour cette Media Queries */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 16px;
+    background-color: brown;
+}
+
+
 }
 
 
@@ -389,4 +417,14 @@ footer .footer_container_1 .col_1{
 /*Large Computer*/
 @media only screen and (min-width : 1824px) {
 /* Styles pour cette Media Queries */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 16px;
+    background-color: orange;
+}
+
+
 }
