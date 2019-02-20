@@ -266,13 +266,13 @@ button,.button_offset:hover{
   padding-right: 0;
 }
 
-footer .footer_container {
+footer .footer_container_1 {
     /* Déclaration du css footer .footer_container */
-    padding: 40px;
+    padding-top: 20px;
 
 }
 
-footer .footer_container .div_1{
+footer .footer_container_1 .col_1{
   /* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
   background-color: #f2f2f2;
   font-size: 11px;
@@ -328,7 +328,7 @@ footer a.subtitle_footer {
 
 }
 
-.div_2_1 p{
+.col_2_1 p{
   margin: 0 40px ;
   padding: 5px 0;
 }
