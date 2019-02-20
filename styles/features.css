@@ -167,7 +167,7 @@ ul{
     width: 400px;
     flex-direction: row;
     padding: 20px;
-    box-shadow: 1px 1px 4px #999;
+    /*box-shadow: 1px 1px 4px #999;*/
     border-radius:4px;
 }
 .caract h3{
@@ -257,6 +257,10 @@ ul{
 button,.button_offset:hover{
     cursor: pointer;
 }
+.blue{
+    background-color: #0070c9;
+    color: white;
+}
 
 /* Div pour reste des infos */
 
@@ -265,11 +269,9 @@ button,.button_offset:hover{
     flex-flow: row wrap;
 }
 .bloc_1_2{
-    width: 420px;
+    width: 440px;
     padding: 5px;
     text-align: center;
-    border-radius: 4px;
-    box-shadow: 1px 1px 4px #999;
     margin-bottom: 30px;
 }
 .bloc_1_2 li{
@@ -543,10 +545,7 @@ footer a.subtitle_footer {
 /*Format gros ordinateurs/écran */
 @media only screen and (min-width :1480px) {
 /* Styles pour cette Media Queries */
-.container{
-  width: 1280px;
-  margin: 0 auto;
-}
+
   /*MENU Hamburger*/
 
 
