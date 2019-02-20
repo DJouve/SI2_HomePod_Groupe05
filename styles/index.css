@@ -371,60 +371,6 @@ footer a.subtitle_footer {
 
 
 
-/*Format ordinateur portable*/
-@media only screen and (min-width : 1080px) and (max-width : 1280px) {
-/* Styles pour cette Media Queries */
-.container{
-  width: 1080px;
-  margin: 0 auto;
-}
-  /*MENU Hamburger*/
-
-
-  footer .footer_container_1 .col_1{
-    /* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
-    background-color: #f2f2f2;
-    font-size: 11px;
-    height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-
-  }
-
-
-  footer p.title_footer {
-      padding-top: 5px;
-      display: block;
-      text-align: center;
-      list-style: none;
-      font-weight: bold;
-      font-size: 15px;
-      text-decoration: none;
-      color: #111;
-  }
-
-  footer a.subtitle_footer {
-      display: block;
-      text-align: center;
-      line-height: 1.7;
-      cursor: pointer;
-      list-style:none;
-      text-decoration:none;
-      color: #555;
-
-  }
-
-  .col_2_1 p{
-    padding-top: 10px;
-    font-size: 12px;
-
-  }
-
-
-}
-
-
 /*Format gros ordinateurs/écran */
 @media only screen and (min-width :1480px) {
 /* Styles pour cette Media Queries */
