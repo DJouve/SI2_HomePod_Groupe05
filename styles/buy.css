@@ -12,14 +12,14 @@ body {
     font-weight: normal;
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
   }
-  
+
   @font-face {
     font-family: "SF Pro Text Bold";
     font-weight: bold;
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
   }
-  
-  
+
+
   body {
     margin: 0;
     padding: 0;
@@ -27,18 +27,18 @@ body {
     font-size: 16px;
     color: #333;
   }
-  
+
   .container {
     width: 940px;
     margin: 0 auto;
   }
-  
+
   /* Menu */
-  
+
   #header {
     background: linear-gradient(to right, #777dff, #497ce2, #37bdde, #f154ff, #f0357c);
   }
-  
+
   .primaryMenu {
     display: flex;
     justify-content: space-between;
@@ -49,34 +49,34 @@ body {
     margin: 0;
     padding: 0;
   }
-  
+
   .menuItem {
     flex-direction: row;
     position: relative;
   }
-  
+
   .menuItem a {
     text-decoration: none;
     color: white;
     font-size: 14px;
   }
-  
+
   .menuItem:hover a {
     opacity: 0.65;
     transition: 0.2s;
   }
-  
+
   .menuItem a img {
     height: 14px;
   }
-  
+
   #logo {
     font-size: 16px;
     font-family: "SF Pro Text Bold";
   }
-  
+
   /* Button acheter */
-  
+
   .buy-button {
     background-color: #0070c9;
     background: linear-gradient(#42a1ec, #0070c9);
@@ -87,19 +87,19 @@ body {
     text-decoration: none;
     color: white;
   }
-  
+
   .buy-button:hover {
     background-color: #147bcd;
     background: linear-gradient(#51a9ee, #147bcd);
     border-color: #1482d0;
     text-decoration: none;
   }
-  
 
-  
-  
+
+
+
   /* Submenu */
-  
+
   .subMenu {
     padding: 0px;
     margin: 0px;
@@ -107,18 +107,18 @@ body {
     list-style: none;
     position: absolute;
   }
-  
+
   .subMenu a {
     text-decoration: none;
     color: #333;
     background: white;
   }
-  
+
   .menuItem:hover .subMenu {
     display: block;
   }
-  
-  
+
+
 
 
   /* Hero */
@@ -132,7 +132,7 @@ body {
       height: 70vh;
   }
 
-  
+
   .hero-informations {
       display: flex;
       flex-direction: column;
@@ -166,7 +166,7 @@ body {
       margin-right: 15px;
   }
 
-  
+
   .hero-informations .color-selec .color-item p{
       font-size: 16px;
   }
@@ -265,7 +265,7 @@ body {
 }
 
   /*Footer*/
-  
+
   #footer {
     /* Déclaration du css footer */
     background-color: var(--light-grey);
@@ -275,13 +275,13 @@ body {
     padding-left: 0;
     padding-right: 0;
   }
-  
+
   footer .footer-container-1 {
     /* Déclaration du css footer .footer-container */
     padding-top: 20px;
-  
+
   }
-  
+
   footer .footer-container-1 .col-1 {
     /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
     background-color: var(--light-grey);
@@ -291,26 +291,26 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  
-  
+
+
   /* ul et li du footer */
-  
+
   ul {
     padding: 0px;
     list-style: none;
     text-align: center;
   }
-  
-  
+
+
   ul li {
-  
+
     list-style: none;
     padding: 2px 0;
     text-align: center;
   }
-  
-  
-  
+
+
+
   /* Les titres boutons du footers */
   footer p.title-footer {
     display: block;
@@ -320,10 +320,10 @@ body {
     font-size: 12px;
     text-decoration: none;
     color: #333;
-  
-  
+
+
   }
-  
+
   /* Les Sous-titres boutons du footers */
   footer a.subtitle-footer {
     display: block;
@@ -333,251 +333,363 @@ body {
     list-style: none;
     text-decoration: none;
     color: #555;
-  
+
   }
-  
+
   .col-2-1 p {
     margin: 0 40px;
     padding: 5px 0;
   }
-  
-  
-  
-  
-  /*RESPONSIVE*/
-  
-  
-  
-  
-  /*Format Téléphone*/
-  @media only screen and (max-width : 440px) {
-  
-  
-    .container {
-      width: 440px;
-      margin: 0 auto;
-    }
-  
-    /*MENU Hamburger*/
-  
-  
-    footer .footer-container-1 .col-1 {
-      /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
-      background-color: var(--light-grey);
-      font-size: 11px;
-      height: auto;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: stretch;
-    }
-  
-    footer p.title-footer {
-      padding-top: 5px;
-      display: block;
-      text-align: center;
-      list-style: none;
-      font-weight: bold;
-      font-size: 15px;
-      text-decoration: none;
-      color: #111;
-    }
-  
-    footer a.subtitle-footer {
-      display: block;
-      text-align: center;
-      line-height: 1.7;
-      cursor: pointer;
-      list-style: none;
-      text-decoration: none;
-      color: #555;
-  
-    }
-  
-    .col-2-1 p {
-      padding-top: 10px;
-      font-size: 12px;
-  
-    }
-  
-  
+
+
+
+  /* ------------------------------------------*/
+
+  /* RESPONSIVE */
+
+  /*Format Téléphone (- 440PX) */
+  @media only screen and (max-width : 440px)
+  {
+  	/*Taille de la fenetre*/
+  	.container
+  	{
+  		width: 440px;
+  		margin: 0 auto;
+  	}
+
+  	/* Menu */
+  	.primaryMenu
+  	{
+  		display: flex;
+  		justify-content: space-between;
+  		align-items: center;
+  		list-style: none;
+  		width: 100%;
+  		height: 48px;
+  		margin: 0;
+  		padding: 0;
+  	}
+
+  	.menuItem
+  	{
+  		display: none;
+  	}
+
+  	div.hamburger_nav
+  	{
+  		display: block;
+  	}
+
+  	button.hamburger
+  	{
+  		margin: 10px;
+  	}
+
+  	ul.primaryMenu
+  	{
+  		display: none;
+  	}
+
+  	.menu-responsive
+  	{
+  		display: flex;
+  		justify-content: flex-end;
+  	}
+
+  	.menu-responsive  a
+  	{
+  		text-decoration: none;
+  		color: white;
+  		font-size: 14px;
+  	}
+
+  	.menu-responsive:hover a
+  	{
+  		opacity: 0.65;
+  		transition: 0.2s;
+  	}
+
+  	.menu-responsive a img
+  	{
+  		height: 14px;
+  	}
+
+  	.menu-responsive .logo
+  	{
+  		font-size: 16px;
+  		font-family: "SF Pro Text Bold";
+  	}
+
+  	/* Main */
+  	/* Footer*/
+  	footer .footer-container-1 .col-1
+  	{
+  		/* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+  		background-color: #f2f2f2;
+  		font-size: 11px;
+  		height: auto;
+  		width: 100%;
+  		display: flex;
+  		flex-direction: column;
+  		align-items: stretch;
+  	}
+
+  	footer p.title-footer
+  	{
+  		padding-top: 5px;
+  		display: block;
+  		text-align: center;
+  		list-style: none;
+  		font-weight: bold;
+  		font-size: 15px;
+  		text-decoration: none;
+  		color: #111;
+  	}
+
+  	footer a.subtitle-footer
+  	{
+  		display: block;
+  		text-align: center;
+  		line-height: 1.7;
+  		cursor: pointer;
+  		list-style:none;
+  		text-decoration:none;
+  		color: #555;
+  	}
+
+  	.col-2-1 p
+  	{
+  		padding-top: 10px;
+  		font-size: 12px;
+  	}
   }
-  
-  
-  
-  
-  /*Format mini tablette*/
-  @media only screen and (min-width : 440px) and (max-width : 760px) {
-    /* Styles pour cette Media Queries */
-  
-  
-    .container {
-      width: 440px;
-      margin: 0 auto;
-    }
-  
-    /*MENU Hamburger*/
-  
-  
-    footer .footer-container-1 .col-1 {
-      /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
-      background-color: var(--light-grey);
-      font-size: 11px;
-      height: auto;
-      width: 100%;
-      display: flex;
-      flex-flow: row wrap;
-    }
-  
-  
-    /*Toutes les div qui sont enfant de col-1*/
-    div.col-1 div {
-      width: 50%;
-    }
-  
-    footer p.title-footer {
-      padding-top: 5px;
-      display: block;
-      text-align: center;
-      list-style: none;
-      font-weight: bold;
-      font-size: 15px;
-      text-decoration: none;
-      color: #111;
-    }
-  
-    footer a.subtitle-footer {
-      display: block;
-      text-align: center;
-      line-height: 1.7;
-      cursor: pointer;
-      list-style: none;
-      text-decoration: none;
-      color: #555;
-  
-    }
-  
-    .col-2-1 p {
-      padding-top: 10px;
-      font-size: 12px;
-  
-    }
-  
-  
+
+
+  /*Format Téléphone (440PX/760PX) */
+  @media only screen and (min-width : 440px) and (max-width : 760px)
+  {
+  	/*Taille de la fenetre*/
+  	.container
+  	{
+  		width: 440px;
+  		margin: 0 auto;
+  	}
+
+  	/* Menu */
+  	.primaryMenu
+  	{
+  		display: flex;
+  		justify-content: space-between;
+  		align-items: center;
+  		list-style: none;
+  		width: 100%;
+  		height: 48px;
+  		margin: 0;
+  		padding: 0;
+  	}
+
+  	.menuItem
+  	{
+  		display: none;
+  	}
+
+  	div.hamburger_nav
+  	{
+  		display: block;
+  	}
+
+  	button.hamburger
+  	{
+  		margin: 10px;
+  	}
+
+  	ul.primaryMenu
+  	{
+  		display: none;
+  	}
+
+  	.menu-responsive
+  	{
+  		display: flex;
+  		justify-content: flex-end;
+  	}
+
+  	.menu-responsive  a
+  	{
+  		text-decoration: none;
+  		color: white;
+  		font-size: 14px;
+  	}
+
+  	.menu-responsive:hover a
+  	{
+  		opacity: 0.65;
+  		transition: 0.2s;
+  	}
+
+  	.menu-responsive a img
+  	{
+  		height: 14px;
+  	}
+
+  	.menu-responsive .logo
+  	{
+  		font-size: 16px;
+  		font-family: "SF Pro Text Bold";
+  	}
+
+  	/* Main */
+  	/* Footer*/
+  	footer .footer-container-1 .col-1
+  	{
+  		background-color: #f2f2f2;
+  		font-size: 11px;
+  		height: auto;
+  		width: 100%;
+  		display: flex;
+  		flex-flow: row wrap;
+  	}
+
+  	div.col-1 div
+  	{
+  		width: 50%;
+  	}
+
+  	footer p.title-footer
+  	{
+  		padding-top: 5px;
+  		display: block;
+  		text-align: center;
+  		list-style: none;
+  		font-weight: bold;
+  		font-size: 15px;
+  		text-decoration: none;
+  		color: #111;
+  	}
+
+  	footer a.subtitle-footer
+  	{
+  		display: block;
+  		text-align: center;
+  		line-height: 1.7;
+  		cursor: pointer;
+  		list-style:none;
+  		text-decoration:none;
+  		color: #555;
+  	}
+
+  	.col-2-1 p
+  	{
+  		padding-top: 10px;
+  		font-size: 12px;
+  	}
   }
-  
-  
-  
-  /*Format tablette*/
-  @media only screen and (min-width : 760px) and (max-width : 1080px) {
-    /* Styles pour cette Media Queries */
-  
-    .container {
-      width: 760px;
-      margin: 0 auto;
-    }
-  
-    /*MENU Hamburger*/
-  
-  
-  
-    footer .footer-container-1 .col-1 {
-      /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
-      background-color: var(--light-grey);
-      font-size: 11px;
-      height: auto;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-  
-    }
-  
-  
-  
-    footer p.title-footer {
-      padding-top: 5px;
-      display: block;
-      text-align: center;
-      list-style: none;
-      font-weight: bold;
-      font-size: 15px;
-      text-decoration: none;
-      color: #111;
-    }
-  
-    footer a.subtitle-footer {
-      display: block;
-      text-align: center;
-      line-height: 1.7;
-      cursor: pointer;
-      list-style: none;
-      text-decoration: none;
-      color: #555;
-  
-    }
-  
-    .col-2-1 p {
-      padding-top: 10px;
-      font-size: 12px;
-  
-    }
-  
-  
+
+
+
+  /*Format Tablette (760PX/1080PX) */
+  @media only screen and (min-width : 760px) and (max-width : 1080px)
+  {
+  	/*Taille de la fenetre*/
+  	.container
+  	{
+  		width: 760px;
+  		margin: 0 auto;
+  	}
+
+  	/* Menu */
+  	/* Main*/
+  	/* Footer*/
+  	footer .footer-container-1 .col-1
+  	{
+  		/* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+  		background-color: #f2f2f2;
+  		font-size: 11px;
+  		height: auto;
+  		width: 100%;
+  		display: flex;
+  		justify-content: space-between;
+  	}
+
+  	footer p.title-footer
+  	{
+  		padding-top: 5px;
+  		display: block;
+  		text-align: center;
+  		list-style: none;
+  		font-weight: bold;
+  		font-size: 15px;
+  		text-decoration: none;
+  		color: #111;
+  	}
+
+  	footer a.subtitle-footer
+  	{
+  		display: block;
+  		text-align: center;
+  		line-height: 1.7;
+  		cursor: pointer;
+  		list-style:none;
+  		text-decoration:none;
+  		color: #555;
+  	}
+
+  	.col-2-1 p
+  	{
+  		padding-top: 10px;
+  		font-size: 12px;
+  	}
   }
-  
-  
-  
-  /*Format gros ordinateurs/écran */
-  @media only screen and (min-width :1480px) {
-  
-    /* Styles pour cette Media Queries */
-    .container {
-      width: 1280px;
-      margin: 0 auto;
-    }
-  
-    /*MENU Hamburger*/
-  
-  
-    footer .footer-container-1 .col-1 {
-      /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
-      background-color: var(--light-grey);
-      font-size: 11px;
-      height: auto;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-  
-    }
-  
-  
-    footer p.title-footer {
-      padding-top: 5px;
-      display: block;
-      text-align: center;
-      list-style: none;
-      font-weight: bold;
-      font-size: 15px;
-      text-decoration: none;
-      color: #111;
-    }
-  
-    footer a.subtitle-footer {
-      display: block;
-      text-align: center;
-      line-height: 1.7;
-      cursor: pointer;
-      list-style: none;
-      text-decoration: none;
-      color: #555;
-  
-    }
-  
-    .col-2-1 p {
-      padding-top: 10px;
-      font-size: 12px;
-  
-    }
-  
-  
+
+
+  /*Format grands écrants (+1480PX) */
+  @media only screen and (min-width :1480px)
+  {
+  	/*Taille de la fenetre*/
+
+
+
+
+  	/* Menu*/
+  	/* Main*/
+  	/* Footer*/
+  	footer .footer-container-1 .col-1
+  	{
+  		/* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+  		background-color: #f2f2f2;
+  		font-size: 11px;
+  		height: auto;
+  		width: 100%;
+  		display: flex;
+  		justify-content: space-between;
+  	}
+
+  	footer p.title-footer
+  	{
+  		padding-top: 5px;
+  		display: block;
+  		text-align: center;
+  		list-style: none;
+  		font-weight: bold;
+  		font-size: 15px;
+  		text-decoration: none;
+  		color: #111;
+  	}
+
+  	footer a.subtitle-footer
+  	{
+  		display: block;
+  		text-align: center;
+  		line-height: 1.7;
+  		cursor: pointer;
+  		list-style:none;
+  		text-decoration:none;
+  		color: #555;
+  	}
+
+  	.col-2-1 p
+  	{
+  		padding-top: 10px;
+  		font-size: 12px;
+  	}
   }

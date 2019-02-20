@@ -256,31 +256,31 @@ footer a.subtitle-footer {
 		display: none;
 	}
 
-	.menu_responsive
+	.menu-responsive
 	{
 		display: flex;
 		justify-content: flex-end;
 	}
 
-	.menu_responsive  a
+	.menu-responsive  a
 	{
 		text-decoration: none;
 		color: white;
 		font-size: 14px;
 	}
 
-	.menu_responsive:hover a
+	.menu-responsive:hover a
 	{
 		opacity: 0.65;
 		transition: 0.2s;
 	}
 
-	.menu_responsive a img
+	.menu-responsive a img
 	{
 		height: 14px;
 	}
 
-	.menu_responsive .logo
+	.menu-responsive .logo
 	{
 		font-size: 16px;
 		font-family: "SF Pro Text Bold";
@@ -288,7 +288,7 @@ footer a.subtitle-footer {
 
 	/* Main */
 	/* Footer*/
-	footer .footer_container_1 .col_1
+	footer .footer-container-1 .col-1
 	{
 		/* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
 		background-color: #f2f2f2;
@@ -300,7 +300,7 @@ footer a.subtitle-footer {
 		align-items: stretch;
 	}
 
-	footer p.title_footer
+	footer p.title-footer
 	{
 		padding-top: 5px;
 		display: block;
@@ -312,7 +312,7 @@ footer a.subtitle-footer {
 		color: #111;
 	}
 
-	footer a.subtitle_footer
+	footer a.subtitle-footer
 	{
 		display: block;
 		text-align: center;
@@ -323,7 +323,7 @@ footer a.subtitle-footer {
 		color: #555;
 	}
 
-	.col_2_1 p
+	.col-2-1 p
 	{
 		padding-top: 10px;
 		font-size: 12px;
@@ -374,31 +374,31 @@ footer a.subtitle-footer {
 		display: none;
 	}
 
-	.menu_responsive
+	.menu-responsive
 	{
 		display: flex;
 		justify-content: flex-end;
 	}
 
-	.menu_responsive  a
+	.menu-responsive  a
 	{
 		text-decoration: none;
 		color: white;
 		font-size: 14px;
 	}
 
-	.menu_responsive:hover a
+	.menu-responsive:hover a
 	{
 		opacity: 0.65;
 		transition: 0.2s;
 	}
 
-	.menu_responsive a img
+	.menu-responsive a img
 	{
 		height: 14px;
 	}
 
-	.menu_responsive .logo
+	.menu-responsive .logo
 	{
 		font-size: 16px;
 		font-family: "SF Pro Text Bold";
@@ -406,7 +406,7 @@ footer a.subtitle-footer {
 
 	/* Main */
 	/* Footer*/
-	footer .footer_container_1 .col_1
+	footer .footer-container-1 .col-1
 	{
 		background-color: #f2f2f2;
 		font-size: 11px;
@@ -416,12 +416,12 @@ footer a.subtitle-footer {
 		flex-flow: row wrap;
 	}
 
-	div.col_1 div
+	div.col-1 div
 	{
 		width: 50%;
 	}
 
-	footer p.title_footer
+	footer p.title-footer
 	{
 		padding-top: 5px;
 		display: block;
@@ -433,7 +433,7 @@ footer a.subtitle-footer {
 		color: #111;
 	}
 
-	footer a.subtitle_footer
+	footer a.subtitle-footer
 	{
 		display: block;
 		text-align: center;
@@ -444,7 +444,7 @@ footer a.subtitle-footer {
 		color: #555;
 	}
 
-	.col_2_1 p
+	.col-2-1 p
 	{
 		padding-top: 10px;
 		font-size: 12px;
@@ -466,7 +466,7 @@ footer a.subtitle-footer {
 	/* Menu */
 	/* Main*/
 	/* Footer*/
-	footer .footer_container_1 .col_1
+	footer .footer-container-1 .col-1
 	{
 		/* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
 		background-color: #f2f2f2;
@@ -477,7 +477,7 @@ footer a.subtitle-footer {
 		justify-content: space-between;
 	}
 
-	footer p.title_footer
+	footer p.title-footer
 	{
 		padding-top: 5px;
 		display: block;
@@ -489,7 +489,7 @@ footer a.subtitle-footer {
 		color: #111;
 	}
 
-	footer a.subtitle_footer
+	footer a.subtitle-footer
 	{
 		display: block;
 		text-align: center;
@@ -500,7 +500,7 @@ footer a.subtitle-footer {
 		color: #555;
 	}
 
-	.col_2_1 p
+	.col-2-1 p
 	{
 		padding-top: 10px;
 		font-size: 12px;
@@ -512,14 +512,14 @@ footer a.subtitle-footer {
 @media only screen and (min-width :1480px)
 {
 	/*Taille de la fenetre*/
-	
 
-	
+
+
 
 	/* Menu*/
 	/* Main*/
 	/* Footer*/
-	footer .footer_container_1 .col_1
+	footer .footer-container-1 .col-1
 	{
 		/* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
 		background-color: #f2f2f2;
@@ -530,7 +530,7 @@ footer a.subtitle-footer {
 		justify-content: space-between;
 	}
 
-	footer p.title_footer
+	footer p.title-footer
 	{
 		padding-top: 5px;
 		display: block;
@@ -542,7 +542,7 @@ footer a.subtitle-footer {
 		color: #111;
 	}
 
-	footer a.subtitle_footer
+	footer a.subtitle-footer
 	{
 		display: block;
 		text-align: center;
@@ -553,7 +553,7 @@ footer a.subtitle-footer {
 		color: #555;
 	}
 
-	.col_2_1 p
+	.col-2-1 p
 	{
 		padding-top: 10px;
 		font-size: 12px;
