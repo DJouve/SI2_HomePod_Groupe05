@@ -48,7 +48,7 @@ body {
   position: relative;
 }
 
-.menu_responsive{
+.menu-responsive{
   display: none;
 }
 
@@ -79,12 +79,12 @@ body {
   height: 14px;
 }
 
-.logo {
+#logo {
   font-size: 16px;
   font-family: "SF Pro Text Bold";
 }
 
-div.hamburger_nav{
+div.hamburger-nav{
   display: none;
 }
 
@@ -253,7 +253,7 @@ footer a.subtitle-footer {
 		display: none;
 	}
 
-	div.hamburger_nav
+	div.hamburger-nav
 	{
 		display: block;
 	}
@@ -292,7 +292,7 @@ footer a.subtitle-footer {
 		height: 20px;
 	}
 
-	.menu-responsive .logo
+	.menu-responsive #logo-responsive
 	{
     padding-left: 50px;
 		font-size: 20px;
@@ -303,7 +303,7 @@ footer a.subtitle-footer {
 	/* Footer*/
 	footer .footer-container-1 .col-1
 	{
-		/* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+		/* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
 		background-color: #f2f2f2;
 		font-size: 11px;
 		height: auto;
@@ -372,7 +372,7 @@ footer a.subtitle-footer {
 		display: none;
 	}
 
-	div.hamburger_nav
+	div.hamburger-nav
 	{
 		display: block;
 	}
@@ -411,7 +411,7 @@ footer a.subtitle-footer {
 		height: 20px;
 	}
 
-	.menu-responsive .logo
+	.menu-responsive #logo-responsive
 	{
 		font-size: 20px;
 		font-family: "SF Pro Text Bold";
@@ -481,7 +481,7 @@ footer a.subtitle-footer {
 	/* Footer*/
 	footer .footer-container-1 .col-1
 	{
-		/* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+		/* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
 		background-color: #f2f2f2;
 		font-size: 11px;
 		height: auto;
@@ -534,7 +534,7 @@ footer a.subtitle-footer {
 	/* Footer*/
 	footer .footer-container-1 .col-1
 	{
-		/* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+		/* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
 		background-color: #f2f2f2;
 		font-size: 11px;
 		height: auto;
