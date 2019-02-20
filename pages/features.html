@@ -13,7 +13,7 @@
 				<!-- Menu du haut-->
 				<ul class="primaryMenu">
 					<li class="menuItem">
-						<a id="logo" href="../index.html" title="site d'apple"><img src="../images/apple-logo (1).svg" alt="Apple logo"> HomePod</a>
+						<a id="logo" href="../index.html" title="site d'apple"><img src="../images/apple-logo_homepod.svg" alt="Apple logo"> HomePod</a>
 					</li>
 					<li class="menuItem"><a href="#" title="Caractéristiques">Caractéristiques</a></li>
 					<li class="menuItem"><a href="https://www.apple.com/fr/apple-music/" title="Apple Music">Apple Music</a></li>
@@ -27,7 +27,7 @@
 			</nav>
 		</header>
 		<main>
-			<div class="homepod container"><button  type="button">HomePod</button></div>
+			<div class="homepod container"><a href="../index.html" title="HomePod Page">HomePod</a></div>
 			<div class="container flex">
 				<div class="loudspeaker"><img src="../images/391ed9a297474548ad0afa5e4364e5ec.jpeg" alt="enceintes"></div>
 				<aside>
@@ -36,94 +36,116 @@
 					</div>
 					<div class="caract">
 						<h3>Dimensions, poids et coloris</h3>
-						<div class="container_caract flex">
-							<h4>Dimension :</h4>
-							<h4>Poids :</h4>
-							<h4>Coloris :</h4>
-							<p>172 mm de hauteur <br>
-							142 mm de diamètre</p>
-							<p>2,5 kg</p>
-							<p>Gris sidéral <br> Blanc</p>
-						</div>
+						<table class="container_caract tab">
+							<thead>
+								<tr>
+									<th>Dimensions</th>
+									<th>Poids</th>
+									<th>Coloris</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>172 mm</td>
+									<td>2,5 kg</td>
+									<td>Gris sidéral</td>
+								</tr>
+								<tr>
+									<td>de hauteur</td>
+									<td></td>
+									<td>Blanc</td>
+								</tr>
+								<tr>
+									<td>142 mm</td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>de diamètre</td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 				</aside>
 
 			</div>
 			<div class="container container_button flex">
-				<div id="technologie_button" class="button_offset">Technologie</div>
-				<div id="sources_button" class="button_offset">Sources</div>
-				<div id="formats_button" class="button_offset">Formats</div>
-				<div id="accessibilite_button" class="button_offset">Accessibilité</div>
-				<div id="configuration_button" class="button_offset">Configuration</div>
-				<div id="alimentation_button" class="button_offset">Alimentation</div>
+				<div class="button_offset technology_button">Technologie</div>
+				<div class="button_offset sources_button">Sources</div>
+				<div class="button_offset formats_button">Formats</div>
+				<div class="button_offset accessibility_button">Accessibilité</div>
+				<div class="button_offset configuration_button">Configuration</div>
+				<div class="button_offset power_button">Alimentation</div>
 			</div>
-			<div id="technologie" class="container offset">
+			<div class="container offset technology">
 					<h3>Technologie audio</h3>
-				<p>
-					Boomer longue portée avec amplificateur spécifique <br>
-					Sept tweeters à pavillon, chacun ayant son propre amplificateur spécifique <br>
-					Ensemble de six micros pour s’adresser de loin à Siri <br>
-					Micro interne de calibration des fréquences basses pour une correction automatique des graves <br>
-					Formation de faisceaux pour le son direct et ambiant <br>
-					Traitement dynamique transparent digne d’un studio professionnel <br>
-					Compatible avec l’appairage stéréo <br>
-				</p>
+				<ul>
+					<li>Boomer longue portée avec amplificateur spécifique</li>
+					<li>Sept tweeters à pavillon, chacun ayant son propre amplificateur spécifique</li>
+					<li>Ensemble de six micros pour s’adresser de loin à Siri</li>
+					<li>Micro interne de calibration des fréquences basses pour une correction automatique des graves</li>
+					<li>Formation de faisceaux pour le son direct et ambiant</li>
+					<li>Traitement dynamique transparent digne d’un studio professionnel</li>
+					<li>Compatible avec l’appairage stéréo</li>
+				</ul>
 			</div>
-			<div id="sources" class="container offset">
+			<div class="container offset sources">
 					<h3>Sources audio</h3>
-				<p>
-					Apple Music1 <br>
-					Achats de musique sur iTunes <br>
-					Bibliothèque musicale iCloud avec un abonnement Apple Music ou iTunes Match <br>
-					Radio Beats 1 en direct <br>
-					Épisodes live de Beats 1 à la demande <br>
-					Podcasts Apple <br>
-					Diffusion d’autres contenus de votre iPhone, iPad, iPod touch, Apple TV ou Mac sur le HomePod via AirPlay
-				</p>
+				<ul>
+					<li>Apple Music1</li>
+					<li>Achats de musique sur iTunes</li>
+					<li>Bibliothèque musicale iCloud avec un abonnement Apple Music ou iTunes Match</li>
+					<li>Radio Beats 1 en direct</li>
+					<li>Épisodes live de Beats 1 à la demande</li>
+					<li>Podcasts Apple</li>
+					<li>Diffusion d’autres contenus de votre iPhone, iPad, iPod touch, Apple TV ou Mac sur le HomePod via AirPlay</li>
+				</ul>
 			</div>
-			<div id="formats" class="container offset">
+			<div class="container offset formats">
 					<h3>Formats audio</h3>
-				<p>
-					HE‑AAC (V1), AAC (16 à 320 kbit/s), AAC protégé (iTunes Store), <br>
-					MP3 (16 à 320 kbit/s), MP3 VBR, <br>
-					Apple Lossless, AIFF, WAV et FLAC
-				</p>
+				<ul>
+					<li>HE‑AAC (V1), AAC (16 à 320 kbit/s), AAC protégé (iTunes Store),</li>
+					<li>MP3 (16 à 320 kbit/s), MP3 VBR,</li>
+					<li>Apple Lossless, AIFF, WAV et FLAC</li>
+				</ul>
 			</div>
-			<div id="accessibilite" class="container offset">
-					<h3>Accessibilité</h3>
+			<div class="container offset accessibility">
+				<h3>Accessibilité</h3>
 				<p>
 					Les fonctionnalités d’accessibilité aident les personnes en situation de handicap à profiter pleinement de leur HomePod. <br>
 					<strong>Fonctionnalités incluses :</strong> <br>
-					<ul>
-						<li>Adaptation aux pressions</li>
-						<li>Siri </li>
-						<li>VoiceOver </li>
-						<li>App Maison et Homekit</li>
-					</ul>
 				</p>
+				<ul>
+					<li>Adaptation aux pressions</li>
+					<li>Siri </li>
+					<li>VoiceOver </li>
+					<li>App Maison et Homekit</li>
+				</ul>
 			</div>
-			<div id="configuration" class="container offset">
+			<div class="container offset configuration">
 					<h3>Configuration requise</h3>
-				<p>
-					iPhone 5s (ou modèle ultérieur), iPad Pro, iPad (5e génération ou ultérieure), iPad Air (ou modèle ultérieur), <br>
-					iPad mini 2 (ou modèle ultérieur) ou iPod touch (6e génération) avec iOS 12 (ou version ultérieure) <br>
-					Accès Internet par Wi‑Fi 802.11 <br>
-					Abonnement Apple Music requis pour bénéficier de l’ensemble des fonctionnalités musicales	<br>
-				</p>
+				<ul>
+					<li>iPhone 5s (ou modèle ultérieur), iPad Pro, iPad (5e génération ou ultérieure), iPad Air (ou modèle ultérieur),</li>
+					<li>iPad mini 2 (ou modèle ultérieur) ou iPod touch (6e génération) avec iOS 12 (ou version ultérieure)</li>
+					<li>Accès Internet par Wi‑Fi 802.11</li>
+					<li>Abonnement Apple Music requis pour bénéficier de l’ensemble des fonctionnalités musicales</li>
+				</ul>
 			</div>
-			<div id="alimentation" class="container offset">
+			<div class="container offset power">
 					<h3>Alimentation et conditions ambiantes</h3>
-				<p>
-					Bloc d’alimentation intégré <br>
-					Tension : de 100 à 240 V CA <br>
-					Fréquence : de 50 à 60 Hz <br>
-					Température d’utilisation : de 0 à 35 °C <br>
-					Température de rangement : de -20 à 45 °C <br>
-					Humidité relative : de 5 à 90 % sans condensation <br>
-					Altitude maximale d’utilisation : testé jusqu’à 3 000 m <br>
-					Altitude maximale de rangement : 4 500 m <br>
-					Altitude maximale de transport : 10 500 m
-				</p>
+				<ul>
+					<li>Bloc d’alimentation intégré</li>
+					<li>Tension : de 100 à 240 V CA</li>
+					<li>Fréquence : de 50 à 60 Hz</li>
+					<li>Température d’utilisation : de 0 à 35 °C</li>
+					<li>Température de rangement : de -20 à 45 °C</li>
+					<li>Humidité relative : de 5 à 90 % sans condensation</li>
+					<li>Altitude maximale d’utilisation : testé jusqu’à 3 000 m</li>
+					<li>Altitude maximale de rangement : 4 500 m</li>
+					<li>Altitude maximale de transport : 10 500 m</li>
+				</ul>
 			</div>
 		</main>
 		<footer id="footer">
