@@ -116,13 +116,13 @@ body {
   padding-right: 0;
 }
 
-footer .footer_container {
+footer .footer_container_1 {
     /* Déclaration du css footer .footer_container */
-    padding: 40px;
+    padding-top: 20px;
 
 }
 
-footer .footer_container .div_1{
+footer .footer_container_1 .col_1{
   /* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
   background-color: #f2f2f2;
   font-size: 11px;
@@ -152,11 +152,9 @@ ul li {
 
 
 /* Les titres boutons du footers */
-footer a.title_footer {
+footer p.title_footer {
     display: block;
     text-align: center;
-    line-height: 1.5;
-    cursor: pointer;
     list-style:none;
     font-weight: bold;
     font-size: 12px;
@@ -174,11 +172,15 @@ footer a.subtitle_footer {
     cursor: pointer;
     list-style:none;
     text-decoration:none;
-    color: #333;
+    color: #555;
 
 }
 
-.div_2_1 p{
+.col_2_1 p{
   margin: 0 40px ;
   padding: 5px 0;
 }
+
+
+
+/*RESPONSIVE*/
