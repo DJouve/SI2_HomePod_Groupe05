@@ -52,6 +52,18 @@ body {
   display: none;
 }
 
+/* CLASSE DE LA DIV DE RESPONSIVE */
+.isOpen{
+  top:0;
+  left: 0%;
+}
+
+.normal{
+  top:0;
+  left: -100%;
+}
+
+
 .menuItem a {
   text-decoration: none;
   color: white;
@@ -266,7 +278,7 @@ footer a.subtitle-footer {
 	{
 		text-decoration: none;
 		color: white;
-		font-size: 14px;
+		font-size: 20px;
 	}
 
 	.menu-responsive:hover a
@@ -277,12 +289,13 @@ footer a.subtitle-footer {
 
 	.menu-responsive a img
 	{
-		height: 14px;
+		height: 20px;
 	}
 
 	.menu-responsive .logo
 	{
-		font-size: 16px;
+    padding-left: 50px;
+		font-size: 20px;
 		font-family: "SF Pro Text Bold";
 	}
 
@@ -384,7 +397,7 @@ footer a.subtitle-footer {
 	{
 		text-decoration: none;
 		color: white;
-		font-size: 14px;
+		font-size: 20px;
 	}
 
 	.menu-responsive:hover a
@@ -395,12 +408,12 @@ footer a.subtitle-footer {
 
 	.menu-responsive a img
 	{
-		height: 14px;
+		height: 20px;
 	}
 
 	.menu-responsive .logo
 	{
-		font-size: 16px;
+		font-size: 20px;
 		font-family: "SF Pro Text Bold";
 	}
 
