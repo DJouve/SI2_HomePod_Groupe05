@@ -356,3 +356,61 @@ footer a.subtitle_footer {
   margin: 0 40px ;
   padding: 5px 0;
 }
+
+
+
+/*RESPONSIVE*/
+
+/*Téléphone Portait*/
+@media only screen and (max-width : 320px) {
+/* Styles pour cette Media Queries */
+}
+
+
+
+/*Téléphone Paysage*/
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+/* Styles pour cette Media Queries */
+}
+
+
+
+/*Ipad Paysage*/
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+/* Styles pour cette Media Queries */
+}
+
+
+
+
+/*Ipad Portrait*/
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+/* Styles pour cette Media Queries */
+
+footer .footer_container_1 .col_1{
+  /* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+  background-color: #f2f2f2;
+  font-size: 11px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+}
+
+
+
+
+/*Petit ordinateur*/
+@media only screen and (min-width : 1224px){
+/* Styles pour cette Media Queries */
+}
+
+
+
+
+/*Large Computer*/
+@media only screen and (min-width : 1824px) {
+/* Styles pour cette Media Queries */
+}
