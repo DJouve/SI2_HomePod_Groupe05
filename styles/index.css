@@ -1,4 +1,4 @@
-/* Page HomePod */
+
 
 @font-face {
   font-family: "SF Pro Text";
@@ -67,7 +67,7 @@ body {
   height: 14px;
 }
 
-#logo {
+.logo {
   font-size: 16px;
   font-family: "SF Pro Text Bold";
 }
@@ -280,7 +280,7 @@ footer a.subtitle-footer {
 		height: 14px;
 	}
 
-	.menu_responsive #logo
+	.menu_responsive .logo
 	{
 		font-size: 16px;
 		font-family: "SF Pro Text Bold";
@@ -398,7 +398,7 @@ footer a.subtitle-footer {
 		height: 14px;
 	}
 
-	.menu_responsive #logo
+	.menu_responsive .logo
 	{
 		font-size: 16px;
 		font-family: "SF Pro Text Bold";
@@ -512,10 +512,9 @@ footer a.subtitle-footer {
 @media only screen and (min-width :1480px)
 {
 	/*Taille de la fenetre*/
-	.container
-	{
+	
 
-	}
+	
 
 	/* Menu*/
 	/* Main*/

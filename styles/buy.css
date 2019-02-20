@@ -230,6 +230,7 @@ body {
 
 .infos-care.enabled {
     background-color: #0070c9;
+    background: linear-gradient(#42a1ec, #0070c9);
     border: 1px solid  #07c;
     color: white;
 }
