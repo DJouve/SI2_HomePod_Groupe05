@@ -5,7 +5,7 @@ const buttonOffset = [...document.querySelectorAll('.button')]
 
 
 /*
-function masquer_div(id)
+function masquer-div(id)
 {
   if (.style.display == 'none') {
        .style.display = 'block';

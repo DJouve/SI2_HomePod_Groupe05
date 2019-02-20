@@ -72,7 +72,7 @@ ul{
 }
 /* Button acheter */
 
-.buy_button{
+.buy-button{
     background-color: #0070c9;
     background: linear-gradient(#42a1ec,#0070c9);
     border-color: #07c;
@@ -80,7 +80,7 @@ ul{
     border-radius: 4px;
     text-align: center;
 }
-.buy_button:hover{
+.buy-button:hover{
     background-color: #147bcd;
     background: linear-gradient(#51a9ee,#147bcd);
     border-color: #1482d0;
@@ -177,7 +177,7 @@ ul{
     font-size: 25px;
     padding: 10px;
 }
-.container_caract{
+.container-caract{
     margin-top: 10px;
     width: 80%;
     height: 80%;
@@ -186,7 +186,7 @@ ul{
     justify-content: space-around;
     flex-flow: row wrap;
 }
-.container_caract h4{
+.container-caract h4{
     margin: 0 auto;
     color: black;
     font-size: 18px;
@@ -194,7 +194,7 @@ ul{
     padding: 5px;
     width: 92px;
 }
-.container_caract p{
+.container-caract p{
     text-align: center;
     margin: 0 auto;
     width: 90px;
@@ -205,12 +205,12 @@ ul{
 
 /* Bouton off-set pour les caractéristiques */
 
-.container_button{
+.container-button{
     justify-content: space-around;
     margin-bottom: 30px;
 }
 
-.button_offset{
+.button-offset{
     width: 100px;
     height: 20px;
     padding: 10px;
@@ -218,7 +218,7 @@ ul{
     border-radius: 4px;
     box-shadow: 1px 1px 4px #999;
 }
-.button_offset:hover{
+.button-offset:hover{
     background-color: #0070c9;
     color: white;
     transition: 0.2s;
@@ -250,11 +250,11 @@ ul{
     margin-left: 50px;
     line-height: 2;
 }
-.offset ul li:not(.list_style){
+.offset ul li:not(.list-style){
     list-style: none;
 }
 
-button,.button_offset:hover{
+button,.button-offset:hover{
     cursor: pointer;
 }
 .blue{
@@ -264,17 +264,17 @@ button,.button_offset:hover{
 
 /* Div pour reste des infos */
 
-.last_info {
+.last-info {
     justify-content: space-around;
     flex-flow: row wrap;
 }
-.bloc_1_2{
+.bloc-1-2{
     width: 440px;
     padding: 5px;
     text-align: center;
     margin-bottom: 30px;
 }
-.bloc_1_2 li{
+.bloc-1-2 li{
     padding: 5px;
     list-style: none;
 }
@@ -294,14 +294,14 @@ button,.button_offset:hover{
   padding-right: 0;
 }
 
-footer .footer_container_1 {
-    /* Déclaration du css footer .footer_container */
+footer .footer-container-1 {
+    /* Déclaration du css footer .footer-container */
     padding-top: 20px;
 
 }
 
-footer .footer_container_1 .col_1{
-  /* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+footer .footer-container-1 .col-1{
+  /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
   background-color: #f2f2f2;
   font-size: 11px;
   height: auto;
@@ -313,13 +313,13 @@ footer .footer_container_1 .col_1{
 
 /* ul et li du footer */
 
-.col_1 ul {
+.col-1 ul {
     padding: 0px;
     text-align: center;
 }
 
 
-.col_1 li {
+.col-1 li {
     list-style:none;
     padding: 2px 0;
     text-align: center;
@@ -328,7 +328,7 @@ footer .footer_container_1 .col_1{
 
 
 /* Les titres boutons du footers */
-footer p.title_footer {
+footer p.title-footer {
     display: block;
     text-align: center;
     line-height: 1.5;
@@ -342,8 +342,8 @@ footer p.title_footer {
 
 }
 
-/* Les Sous_titres boutons du footers */
-footer a.subtitle_footer {
+/* Les Sous-titres boutons du footers */
+footer a.subtitle-footer {
     display: block;
     text-align: center;
     line-height: 1.7;
@@ -354,7 +354,7 @@ footer a.subtitle_footer {
 
 }
 
-.col_2_1 p{
+.col-2-1 p{
   margin: 0 40px ;
   padding: 5px 0;
 }
@@ -376,8 +376,8 @@ footer a.subtitle_footer {
 /*MENU Hamburger*/
 
 
-footer .footer_container_1 .col_1{
-  /* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+footer .footer-container-1 .col-1{
+  /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
   background-color: #f2f2f2;
   font-size: 11px;
   height: auto;
@@ -387,7 +387,7 @@ footer .footer_container_1 .col_1{
   align-items: stretch;
 }
 
-footer p.title_footer {
+footer p.title-footer {
     padding-top: 5px;
     display: block;
     text-align: center;
@@ -398,7 +398,7 @@ footer p.title_footer {
     color: #111;
 }
 
-footer a.subtitle_footer {
+footer a.subtitle-footer {
     display: block;
     text-align: center;
     line-height: 1.7;
@@ -409,7 +409,7 @@ footer a.subtitle_footer {
 
 }
 
-.col_2_1 p{
+.col-2-1 p{
   padding-top: 10px;
   font-size: 12px;
 
@@ -434,8 +434,8 @@ footer a.subtitle_footer {
 /*MENU Hamburger*/
 
 
-footer .footer_container_1 .col_1{
-  /* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+footer .footer-container-1 .col-1{
+  /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
   background-color: #f2f2f2;
   font-size: 11px;
   height: auto;
@@ -445,12 +445,12 @@ footer .footer_container_1 .col_1{
 }
 
 
-/*Toutes les div qui sont enfant de col_1*/
-div.col_1 div{
+/*Toutes les div qui sont enfant de col-1*/
+div.col-1 div{
   width: 50%;
 }
 
-footer p.title_footer {
+footer p.title-footer {
     padding-top: 5px;
     display: block;
     text-align: center;
@@ -461,7 +461,7 @@ footer p.title_footer {
     color: #111;
 }
 
-footer a.subtitle_footer {
+footer a.subtitle-footer {
     display: block;
     text-align: center;
     line-height: 1.7;
@@ -472,7 +472,7 @@ footer a.subtitle_footer {
 
 }
 
-.col_2_1 p{
+.col-2-1 p{
   padding-top: 10px;
   font-size: 12px;
 
@@ -496,8 +496,8 @@ footer a.subtitle_footer {
 
 
 
-footer .footer_container_1 .col_1{
-  /* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+footer .footer-container-1 .col-1{
+  /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
   background-color: #f2f2f2;
   font-size: 11px;
   height: auto;
@@ -509,7 +509,7 @@ footer .footer_container_1 .col_1{
 
 
 
-footer p.title_footer {
+footer p.title-footer {
     padding-top: 5px;
     display: block;
     text-align: center;
@@ -520,7 +520,7 @@ footer p.title_footer {
     color: #111;
 }
 
-footer a.subtitle_footer {
+footer a.subtitle-footer {
     display: block;
     text-align: center;
     line-height: 1.7;
@@ -531,7 +531,7 @@ footer a.subtitle_footer {
 
 }
 
-.col_2_1 p{
+.col-2-1 p{
   padding-top: 10px;
   font-size: 12px;
 
@@ -549,8 +549,8 @@ footer a.subtitle_footer {
   /*MENU Hamburger*/
 
 
-  footer .footer_container_1 .col_1{
-    /* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+  footer .footer-container-1 .col-1{
+    /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
     background-color: #f2f2f2;
     font-size: 11px;
     height: auto;
@@ -561,7 +561,7 @@ footer a.subtitle_footer {
   }
 
 
-  footer p.title_footer {
+  footer p.title-footer {
       padding-top: 5px;
       display: block;
       text-align: center;
@@ -572,7 +572,7 @@ footer a.subtitle_footer {
       color: #111;
   }
 
-  footer a.subtitle_footer {
+  footer a.subtitle-footer {
       display: block;
       text-align: center;
       line-height: 1.7;
@@ -583,7 +583,7 @@ footer a.subtitle_footer {
 
   }
 
-  .col_2_1 p{
+  .col-2-1 p{
     padding-top: 10px;
     font-size: 12px;
 

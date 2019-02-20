@@ -70,7 +70,7 @@ body {
 
 /* Button acheter */
 
-.buy_button {
+.buy-button {
   background-color: #0070c9;
   background: linear-gradient(#42a1ec, #0070c9);
   border-color: #07c;
@@ -79,7 +79,7 @@ body {
   text-align: center;
 }
 
-.buy_button:hover {
+.buy-button:hover {
   background-color: #147bcd;
   background: linear-gradient(#51a9ee, #147bcd);
   border-color: #1482d0;
@@ -143,14 +143,14 @@ body {
   padding-right: 0;
 }
 
-footer .footer_container_1 {
-  /* Déclaration du css footer .footer_container */
+footer .footer-container-1 {
+  /* Déclaration du css footer .footer-container */
   padding-top: 20px;
 
 }
 
-footer .footer_container_1 .col_1 {
-  /* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+footer .footer-container-1 .col-1 {
+  /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
   background-color: #f2f2f2;
   font-size: 11px;
   height: auto;
@@ -179,7 +179,7 @@ ul li {
 
 
 /* Les titres boutons du footers */
-footer p.title_footer {
+footer p.title-footer {
   display: block;
   text-align: center;
   list-style: none;
@@ -191,8 +191,8 @@ footer p.title_footer {
 
 }
 
-/* Les Sous_titres boutons du footers */
-footer a.subtitle_footer {
+/* Les Sous-titres boutons du footers */
+footer a.subtitle-footer {
   display: block;
   text-align: center;
   line-height: 1.7;
@@ -203,7 +203,7 @@ footer a.subtitle_footer {
 
 }
 
-.col_2_1 p {
+.col-2-1 p {
   margin: 0 40px;
   padding: 5px 0;
 }
@@ -231,8 +231,8 @@ footer a.subtitle_footer {
   /*MENU Hamburger*/
 
 
-  footer .footer_container_1 .col_1 {
-    /* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+  footer .footer-container-1 .col-1 {
+    /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
     background-color: #f2f2f2;
     font-size: 11px;
     height: auto;
@@ -242,7 +242,7 @@ footer a.subtitle_footer {
     align-items: stretch;
   }
 
-  footer p.title_footer {
+  footer p.title-footer {
     padding-top: 5px;
     display: block;
     text-align: center;
@@ -253,7 +253,7 @@ footer a.subtitle_footer {
     color: #111;
   }
 
-  footer a.subtitle_footer {
+  footer a.subtitle-footer {
     display: block;
     text-align: center;
     line-height: 1.7;
@@ -264,7 +264,7 @@ footer a.subtitle_footer {
 
   }
 
-  .col_2_1 p {
+  .col-2-1 p {
     padding-top: 10px;
     font-size: 12px;
 
@@ -289,8 +289,8 @@ footer a.subtitle_footer {
   /*MENU Hamburger*/
 
 
-  footer .footer_container_1 .col_1 {
-    /* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+  footer .footer-container-1 .col-1 {
+    /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
     background-color: #f2f2f2;
     font-size: 11px;
     height: auto;
@@ -300,12 +300,12 @@ footer a.subtitle_footer {
   }
 
 
-  /*Toutes les div qui sont enfant de col_1*/
-  div.col_1 div {
+  /*Toutes les div qui sont enfant de col-1*/
+  div.col-1 div {
     width: 50%;
   }
 
-  footer p.title_footer {
+  footer p.title-footer {
     padding-top: 5px;
     display: block;
     text-align: center;
@@ -316,7 +316,7 @@ footer a.subtitle_footer {
     color: #111;
   }
 
-  footer a.subtitle_footer {
+  footer a.subtitle-footer {
     display: block;
     text-align: center;
     line-height: 1.7;
@@ -327,7 +327,7 @@ footer a.subtitle_footer {
 
   }
 
-  .col_2_1 p {
+  .col-2-1 p {
     padding-top: 10px;
     font-size: 12px;
 
@@ -351,8 +351,8 @@ footer a.subtitle_footer {
 
 
 
-  footer .footer_container_1 .col_1 {
-    /* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+  footer .footer-container-1 .col-1 {
+    /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
     background-color: #f2f2f2;
     font-size: 11px;
     height: auto;
@@ -364,7 +364,7 @@ footer a.subtitle_footer {
 
 
 
-  footer p.title_footer {
+  footer p.title-footer {
     padding-top: 5px;
     display: block;
     text-align: center;
@@ -375,7 +375,7 @@ footer a.subtitle_footer {
     color: #111;
   }
 
-  footer a.subtitle_footer {
+  footer a.subtitle-footer {
     display: block;
     text-align: center;
     line-height: 1.7;
@@ -386,7 +386,7 @@ footer a.subtitle_footer {
 
   }
 
-  .col_2_1 p {
+  .col-2-1 p {
     padding-top: 10px;
     font-size: 12px;
 
@@ -409,8 +409,8 @@ footer a.subtitle_footer {
   /*MENU Hamburger*/
 
 
-  footer .footer_container_1 .col_1 {
-    /* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+  footer .footer-container-1 .col-1 {
+    /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
     background-color: #f2f2f2;
     font-size: 11px;
     height: auto;
@@ -421,7 +421,7 @@ footer a.subtitle_footer {
   }
 
 
-  footer p.title_footer {
+  footer p.title-footer {
     padding-top: 5px;
     display: block;
     text-align: center;
@@ -432,7 +432,7 @@ footer a.subtitle_footer {
     color: #111;
   }
 
-  footer a.subtitle_footer {
+  footer a.subtitle-footer {
     display: block;
     text-align: center;
     line-height: 1.7;
@@ -443,7 +443,7 @@ footer a.subtitle_footer {
 
   }
 
-  .col_2_1 p {
+  .col-2-1 p {
     padding-top: 10px;
     font-size: 12px;
 
