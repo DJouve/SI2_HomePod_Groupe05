@@ -419,36 +419,4 @@ footer a.subtitle_footer {
 
 
 
-
-/*Petit ordinateur*/
-@media only screen and (min-width : 1224px) and (max-width : 1824px){
-/* Styles pour cette Media Queries */
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    font-size: 16px;
-    background-color: brown;
-}
-
-
-}
-
-
-
-
-/*Large Computer*/
-@media only screen and (min-width : 1824px) {
-/* Styles pour cette Media Queries */
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    font-size: 16px;
-    background-color: orange;
-}
-
-
-}
+/*RESPONSIVE*/
