@@ -1,15 +1,6 @@
-const technologie = document.querySelector('#technologie')
-const technologieButton = document.querySelector('#technologie_button')
-const sources = document.querySelector('#sources')
-const sourcesButton = document.querySelector('#sources_button')
-const formats = document.querySelector('#formats')
-const formatsButton = document.querySelector('#formats_button')
-const accessibilite = document.querySelector('#accessibilite')
-const accessibiliteButton = document.querySelector('#accessibilite_button')
-const configuration = document.querySelector('#configuration')
-const configurationButton = document.querySelector('#configuration_button')
-const alimentation = document.querySelector('#alimentation')
-const alimentationButton = document.querySelector('#alimentation_button')
+const divOffset = [...document.querySelectorAll('.div')]
+const buttonOffset = [...document.querySelectorAll('.button')]
+
 
 
 
@@ -23,3 +14,17 @@ function masquer_div(id)
        .style.display = 'none';
   }
 }*/
+
+//Boucle for -> placer un event listener sur chaque element
+//Tu compare l'el a la variable i de la boucle
+//Tu affiche la div associée et tu masque les autres
+for(let i = 0; i<6; i++){
+    buttonOffset[i].addEventListener('click', ()=>{
+        for(let j=0; j<6; j++){
+            if (divOffset[j].style.display =='block'){
+                divOffset[j].style.display = 'none'
+            }
+        }
+        divOffset[i].style.display = 'block'
+    })
+}
