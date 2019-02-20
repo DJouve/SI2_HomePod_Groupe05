@@ -233,6 +233,7 @@ ul{
     padding: 10px 15px;
     border-radius: 8px;
     box-shadow: 1px 1px 4px #999;
+    margin-bottom: 30px;
 }
 .offset h3{
     line-height: 0;
@@ -249,10 +250,35 @@ ul{
     margin-left: 50px;
     line-height: 2;
 }
+.offset ul li:not(.list_style){
+    list-style: none;
+}
 
 button,.button_offset:hover{
     cursor: pointer;
 }
+
+/* Div pour reste des infos */
+
+.last_info {
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.bloc_1_2{
+    width: 420px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px #999;
+    margin-bottom: 30px;
+}
+.bloc_1_2 li{
+    padding: 5px;
+    list-style: none;
+}
+
+
+
 
 /*Footer*/
 
@@ -285,15 +311,13 @@ footer .footer_container_1 .col_1{
 
 /* ul et li du footer */
 
-ul {
+.col_1 ul {
     padding: 0px;
-    list-style:none;
     text-align: center;
 }
 
 
-ul li {
-
+.col_1 li {
     list-style:none;
     padding: 2px 0;
     text-align: center;
