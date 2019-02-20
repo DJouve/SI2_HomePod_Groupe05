@@ -20,11 +20,20 @@ function masquer_div(id)
 //Tu affiche la div associée et tu masque les autres
 for(let i = 0; i<6; i++){
     buttonOffset[i].addEventListener('click', ()=>{
+        if (buttonOffset[i].classList.contains('blue')){
+            buttonOffset.classList.remove('blue')
+        }
+        buttonOffset[i].classList.add('blue')
         for(let j=0; j<6; j++){
+            // Baisser l'opacité du bloc actuellement affiché
+            // une fois que cest fait
+            // Changer le display de l'ancien et du nouveau bloc
             if (divOffset[j].style.display =='block'){
                 divOffset[j].style.display = 'none'
             }
+            // AUgmenter l'opacité du nouveau bloc
         }
         divOffset[i].style.display = 'block'
     })
+    
 }

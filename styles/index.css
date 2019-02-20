@@ -109,6 +109,25 @@ body {
   display: block;
 }
 
+/* Main */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -200,6 +219,9 @@ footer a.subtitle_footer {
 /*Format Téléphone*/
 @media only screen and (max-width : 440px) {
 
+  body{
+    background-color: blue;
+  }
 
   .container {
     width: 440px;
