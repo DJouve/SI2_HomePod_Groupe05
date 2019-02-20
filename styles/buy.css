@@ -5,7 +5,7 @@ body {
 }
 
 
-/* Page HomePod */
+
 
 @font-face {
     font-family: "SF Pro Text";
@@ -216,26 +216,33 @@ body {
 }
 
 
-.infos-care.disabled {
+.infos-care {
     display: flex;
     flex-direction: column;
     font-size: 14px;
-    border: 1px solid  #0070c9;
     padding: 15px 20px;
     margin-bottom: 10px;
     cursor: pointer;
     border-radius: 4px;
     transition: 0.2s ease-in-out;
+    border: 1px solid  #0070c9;
 }
 
-.infos-care.disabled:hover {
+.infos-care.enabled {
+    background-color: #0070c9;
+    border: 1px solid  #07c;
+    color: white;
+}
+
+.infos-care.enabled .disclaimer{
+    color: white;
+}
+
+.infos-care:hover {
     transform: translateY(-2px);
-    background: rgb(252, 252, 252);
 }
 
-.info-care.enabled {
 
-}
 
 .infos-care p:first-child {
     font-family: "SF Pro Text Bold";
