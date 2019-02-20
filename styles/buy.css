@@ -1,3 +1,10 @@
+/* Variables */
+
+body {
+    --light-grey: #f2f2f2;
+}
+
+
 /* Page HomePod */
 
 @font-face {
@@ -86,7 +93,7 @@
     text-decoration: none;
   }
   
-  /* Boutton Propre */
+
   
   
   /* Submenu */
@@ -110,13 +117,43 @@
   }
   
   
+
+
+  /* Hero */
+
+  .hero {
+      display: flex;
+      width: 80vw;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .hero-informations {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .hero-informations .color-selec {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 60%;
+  }
+
+  .hero-informations .color-selec .color-item{
+    background: var(--light-grey);
+    border-radius: 
+  }
+  
+  
   
   
   /*Footer*/
   
   #footer {
     /* Déclaration du css footer */
-    background-color: #f2f2f2;
+    background-color: var(--light-grey);
     font-size: 11px;
     height: auto;
     width: 100%;
@@ -132,7 +169,7 @@
   
   footer .footer-container-1 .col-1 {
     /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
-    background-color: #f2f2f2;
+    background-color: var(--light-grey);
     font-size: 11px;
     height: auto;
     width: 100%;
@@ -211,7 +248,7 @@
   
     footer .footer-container-1 .col-1 {
       /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
-      background-color: #f2f2f2;
+      background-color: var(--light-grey);
       font-size: 11px;
       height: auto;
       width: 100%;
@@ -269,7 +306,7 @@
   
     footer .footer-container-1 .col-1 {
       /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
-      background-color: #f2f2f2;
+      background-color: var(--light-grey);
       font-size: 11px;
       height: auto;
       width: 100%;
@@ -331,7 +368,7 @@
   
     footer .footer-container-1 .col-1 {
       /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
-      background-color: #f2f2f2;
+      background-color: var(--light-grey);
       font-size: 11px;
       height: auto;
       width: 100%;
@@ -389,7 +426,7 @@
   
     footer .footer-container-1 .col-1 {
       /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
-      background-color: #f2f2f2;
+      background-color: var(--light-grey);
       font-size: 11px;
       height: auto;
       width: 100%;
