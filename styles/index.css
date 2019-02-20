@@ -1,51 +1,51 @@
 /* Page HomePod */
 
 @font-face {
-    font-family: "SF Pro Text";
-    font-weight: normal;
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  font-family: "SF Pro Text";
+  font-weight: normal;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
-@font-face{
-    font-family: "SF Pro Text Bold";
-    font-weight: bold;
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+@font-face {
+  font-family: "SF Pro Text Bold";
+  font-weight: bold;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
 }
 
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    font-size: 16px;
-    color: #333;
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  color: #333;
 }
 
-.container{
-    width: 940px;
-    margin: 0 auto;
+.container {
+  width: 940px;
+  margin: 0 auto;
 }
 
 /* Menu */
 
-#header{
-    background: linear-gradient(to right, #777dff,#497ce2, #37bdde, #f154ff, #f0357c);
+#header {
+  background: linear-gradient(to right, #777dff, #497ce2, #37bdde, #f154ff, #f0357c);
 }
 
 .primaryMenu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    width: 100%;
-    height: 48px;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  height: 48px;
+  margin: 0;
+  padding: 0;
 }
 
 .menuItem {
-    flex-direction: row;
-    position: relative;
+  flex-direction: row;
+  position: relative;
 }
 
 .menu_responsive{
@@ -53,20 +53,23 @@ body {
 }
 
 .menuItem a {
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
 }
-.menuItem:hover a{
-    opacity: 0.65;
-    transition: 0.2s;
+
+.menuItem:hover a {
+  opacity: 0.65;
+  transition: 0.2s;
 }
-.menuItem a img{
-    height: 14px;
+
+.menuItem a img {
+  height: 14px;
 }
-#logo{
-    font-size: 16px;
-    font-family: "SF Pro Text Bold";
+
+#logo {
+  font-size: 16px;
+  font-family: "SF Pro Text Bold";
 }
 
 div.hamburger_nav{
@@ -75,19 +78,20 @@ div.hamburger_nav{
 
 /* Button acheter */
 
-.buy_button{
-    background-color: #0070c9;
-    background: linear-gradient(#42a1ec,#0070c9);
-    border-color: #07c;
-    padding: 5px 10px;
-    border-radius: 4px;
-    text-align: center;
+.buy_button {
+  background-color: #0070c9;
+  background: linear-gradient(#42a1ec, #0070c9);
+  border-color: #07c;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-align: center;
 }
-.buy_button:hover{
-    background-color: #147bcd;
-    background: linear-gradient(#51a9ee,#147bcd);
-    border-color: #1482d0;
-    text-decoration: none;
+
+.buy_button:hover {
+  background-color: #147bcd;
+  background: linear-gradient(#51a9ee, #147bcd);
+  border-color: #1482d0;
+  text-decoration: none;
 }
 
 /* Boutton Propre */
@@ -96,27 +100,48 @@ div.hamburger_nav{
 /* Submenu */
 
 .subMenu {
-    padding: 0px;
-    margin: 0px;
-    display: none;
-    list-style: none;
-    position: absolute;
+  padding: 0px;
+  margin: 0px;
+  display: none;
+  list-style: none;
+  position: absolute;
 }
+
 .subMenu a {
-    text-decoration: none;
-    color: #333;
-    background: white;
+  text-decoration: none;
+  color: #333;
+  background: white;
 }
+
 .menuItem:hover .subMenu {
-    display: block;
+  display: block;
 }
+
+/* Main */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 /*Footer*/
 
-#footer{
+#footer {
   /* Déclaration du css footer */
   background-color: #f2f2f2;
   font-size: 11px;
@@ -127,12 +152,12 @@ div.hamburger_nav{
 }
 
 footer .footer_container_1 {
-    /* Déclaration du css footer .footer_container */
-    padding-top: 20px;
+  /* Déclaration du css footer .footer_container */
+  padding-top: 20px;
 
 }
 
-footer .footer_container_1 .col_1{
+footer .footer_container_1 .col_1 {
   /* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
   background-color: #f2f2f2;
   font-size: 11px;
@@ -146,48 +171,48 @@ footer .footer_container_1 .col_1{
 /* ul et li du footer */
 
 ul {
-    padding: 0px;
-    list-style:none;
-    text-align: center;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
 }
 
 
 ul li {
 
-    list-style:none;
-    padding: 2px 0;
-    text-align: center;
+  list-style: none;
+  padding: 2px 0;
+  text-align: center;
 }
 
 
 
 /* Les titres boutons du footers */
 footer p.title_footer {
-    display: block;
-    text-align: center;
-    list-style:none;
-    font-weight: bold;
-    font-size: 12px;
-    text-decoration:none;
-    color: #333;
+  display: block;
+  text-align: center;
+  list-style: none;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+  color: #333;
 
 
 }
 
 /* Les Sous_titres boutons du footers */
 footer a.subtitle_footer {
-    display: block;
-    text-align: center;
-    line-height: 1.7;
-    cursor: pointer;
-    list-style:none;
-    text-decoration:none;
-    color: #555;
+  display: block;
+  text-align: center;
+  line-height: 1.7;
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+  color: #555;
 
 }
 
-.col_2_1 p{
-  margin: 0 40px ;
+.col_2_1 p {
+  margin: 0 40px;
   padding: 5px 0;
 }
 
