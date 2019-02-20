@@ -129,19 +129,9 @@ div.hamburger_nav{
 
 
 
-
-
-
-
-
-
-
-
-
-
 /*Footer*/
 
-#footer {
+#footer{
   /* Déclaration du css footer */
   background-color: #f2f2f2;
   font-size: 11px;
@@ -152,12 +142,12 @@ div.hamburger_nav{
 }
 
 footer .footer-container-1 {
-  /* Déclaration du css footer .footer-container */
-  padding-top: 20px;
+    /* Déclaration du css footer .footer-container */
+    padding-top: 20px;
 
 }
 
-footer .footer-container-1 .col-1 {
+footer .footer-container-1 .col-1{
   /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
   background-color: #f2f2f2;
   font-size: 11px;
@@ -170,51 +160,52 @@ footer .footer-container-1 .col-1 {
 
 /* ul et li du footer */
 
-ul {
-  padding: 0px;
-  list-style: none;
-  text-align: center;
+.col-1 ul {
+    padding: 0px;
+    text-align: center;
 }
 
 
-ul li {
-
-  list-style: none;
-  padding: 2px 0;
-  text-align: center;
+.col-1 li {
+    list-style:none;
+    padding: 2px 0;
+    text-align: center;
 }
 
 
 
 /* Les titres boutons du footers */
 footer p.title-footer {
-  display: block;
-  text-align: center;
-  list-style: none;
-  font-weight: bold;
-  font-size: 12px;
-  text-decoration: none;
-  color: #333;
+    display: block;
+    text-align: center;
+    line-height: 1.5;
+    cursor: pointer;
+    list-style:none;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration:none;
+    color: #333;
 
 
 }
 
 /* Les Sous-titres boutons du footers */
 footer a.subtitle-footer {
-  display: block;
-  text-align: center;
-  line-height: 1.7;
-  cursor: pointer;
-  list-style: none;
-  text-decoration: none;
-  color: #555;
+    display: block;
+    text-align: center;
+    line-height: 1.7;
+    cursor: pointer;
+    list-style:none;
+    text-decoration:none;
+    color: #333;
 
 }
 
-.col-2-1 p {
-  margin: 0 40px;
+.col-2-1 p{
+  margin: 0 40px ;
   padding: 5px 0;
 }
+
 
 
 
