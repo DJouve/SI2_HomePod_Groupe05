@@ -151,7 +151,6 @@ div.hamburger-nav{
 
 main{
   width: 100vw;
-  height: 1200px;
   overflow: hidden;
 }
 .relative{
@@ -163,54 +162,54 @@ main{
 /* Images du main */
  #img1{
    z-index: -5;
-   width: 1280px;
+   width: 640px;
    height: 800px;
    /*top: -185px;
    left: -445px;*/
-   transform: translateX(-500px) translateY(-200px);
+   transform: translateX(-250px) translateY(-200px);
  }
  #img2{
    z-index: -4;
-  width: 350px;
-  height: 350px;
-  top: 50px;
+  width: 450px;
+  height: 450px;
+  top: 120px;
   left: 60px;
  }
  #img3{
    z-index: -5;
-   width: 515px;
-   height: 500px;
+   width: 640px;
+   height: 800px;
    top: 0;
    right: 0;
-   transform: translateX(200px) translateY(200px);
+   transform: translateX(270px) translateY(200px);
  }
  #img4{
    z-index: -4;
-   width: 780px;
-   height: 400px;
+   width: 500px;
+   height: 500px;
    top: 0;
    right: 0;
-   transform: translateX(175px) translateY(240px);
+   transform: translateX(-15px) translateY(240px);
  }
 
  /* Texte du main */
 .h1{
   text-align: center;
-  width: 600px;
+  width: 47vw;
   height: auto;
   top: 0;
   left: 0;
-  transform: translateX(530px) translateY(50px);
+  transform: translateX(530px) translateY(55px);
 }
 .h1 h1{
   color: grey;
-  font-size: 55px;
+  font-size: 65px;
 }
 .h2{
   text-align: center;
-  width: 500px;
+  width: 35vw;
   height: auto;
-  margin-top: 200px;
+  margin-top: 220px;
   margin-left: 450px;
   margin-bottom: 100px;
 }
@@ -219,6 +218,7 @@ main{
   font-size: 30px;
 }
 main div.container{
+  
   text-align: center;
 }
 main div.container h3{
@@ -233,9 +233,77 @@ main div.container span{
 }
 
 main div.container p{
+  z-index: 5;
   font-size: 25px;
 }
 
+/*ondes*/
+.container{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.main-center{
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ondes{
+  width: 600px;
+  margin: 0px 170px;
+  height: 400px;
+}
+
+.main-center img{
+  height: 100px;
+  margin-bottom: -10px;
+}
+
+/*Music*/
+
+.main-music{
+  width: 600px;
+  margin: 60px auto;
+  text-align: center;
+}
+#music{
+  height: 500px;
+}
+
+#space{
+  margin-bottom: -20px;
+}
+
+.main-music img#logo{
+  height: 80px;
+  weight: 80px;
+}
+
+h2{
+  font-size: 40px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ee5253), to(#ff9f43));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a{
+  font-size: 13px;
+}
+
+a:hover{
+  font-size: 14px;
+  cursor: pointer;
+  color: blue;
+}
+
+#lien{
+  margin-bottom: 0px;
+}
+
+#margin{
+  padding-top: 50px;
+}
 
 .callout {
 	font-size: 16px;
@@ -260,8 +328,6 @@ main div.container p{
 	top: 20px;
 	right: 20px;
 }
-
-
 /*Footer*/
 
 #footer{
