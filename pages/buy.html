@@ -5,7 +5,8 @@
 		<title>Acheter - HomePod - Apple (FR)</title>
 		<link rel="icon" type="image/ico" href="../images/favicon.ico"/>
 		<meta name="description" content="Site du HomePod d'Apple">
-		<link rel="stylesheet" href="../styles/buy.css">
+        <link rel="stylesheet" href="../styles/reset.css">
+        <link rel="stylesheet" href="../styles/buy.css">
 	</head>
 	<body>
 		<header id="header">
@@ -13,14 +14,14 @@
 				<!-- Menu du haut-->
 				<ul class="primaryMenu">
 					<li class="menuItem">
-						<a id="logo" href="#" title="site d'apple"><img src="../images/apple-logo-homepod.svg" alt="Apple logo"> HomePod</a>
+						<a id="logo" href="../index.html" title="site d'apple"><img src="../images/apple-logo-homepod.svg" alt="Apple logo"> HomePod</a>
 					</li>
-					<li class="menuItem"><a href="pages/features.html" title="Caractéristiques">Caractéristiques</a></li>
+					<li class="menuItem"><a href="features.html" title="Caractéristiques">Caractéristiques</a></li>
 					<li class="menuItem"><a href="https://www.apple.com/fr/apple-music/" title="Apple Music">Apple Music</a></li>
 					<li class="menuItem"><a href="https://www.apple.com/fr/itunes/" title="iTunes">Podcasts</a></li>
 					<li class="menuItem"><a href="https://support.apple.com/fr-fr" title="Assisstance">Assistance</a></li>
 					<li class="menuItem">
-						<a href="#" title="Recherche"><img src="../images/iconmonstr-magnifier-2-16.png" alt="Rechercher"></a>
+						<a href="https://www.apple.com/fr/retail/" title="Recherche"><img src="../images/iconmonstr-magnifier-2-16.png" alt="Rechercher"></a>
 					</li>
 					<li class="menuItem"><a class="buy-button" href="#" title="Acheter">Acheter</a></li>
 				</ul>
@@ -39,30 +40,31 @@
                 <div class="hero-informations">
                     <h1>Acheter un HomePod</h1>
                     <div class="color-selec">
-                        <div class="color-item">
-                            <div class="div-color-circle"></div>
+                        <button class="color-item">
+                            <div class="color-circle white"></div>
                             <p>Blanc</p>
-                        </div>
-                        <div class="color-item">
-                            <div class="div-color-circle"></div>
-                            <p>Blanc</p>
-                        </div>
+                        </button>
+                        <button class="color-item">
+                            <div class="color-circle grey"></div>
+                            <p>Gris sidéral</p>
+                        </button>
                     </div>
                     <div class="infos-price">
                         <p class="infos-price-full">349,00 €</p>
-                        <p class="info-price-tva">TVA et frais inclus : env. 59,00 €*.</p>
-                        <p class="info-price-offer">Offre de financement à 0 %.</p>
+                        <p class="infos-price-tva-offer">TVA et frais inclus : env. 59,00 €.</p>
+                        <p class="infos-price-tva-offer">Offre de financement à 0 %.</p>
+                        <div class="separator"></div>
                     </div>
-                    <div class="info-care">
+                    <div class="infos-care">
                         <p>Ajoutez l’AppleCare+</p>
                         <ul>
-                            <li>AppleCare+ pour HomePod</li>
+                            <li class="icon-apple">AppleCare+ pour HomePod</li>
                             <li>45,00 €</li>
-                            <li>Jusqu’à deux ans d’assistance technique et de garantie couvrant les dégâts accidentels.</li>
+                            <li class="care-time">Jusqu’à deux ans d’assistance technique et de garantie couvrant les dégâts accidentels.</li>
                         </ul>
                         <p class="disclaimer">Inclut la taxe sur les primes d’assurance (au taux applicable)</p>
                     </div>
-                    <a href="" class="btn-primary">Acheter</a>
+                    <a href="" class="buy-button btn-primary">Acheter</a>
                 </div>
             </div>
 		</main>
@@ -151,6 +153,6 @@
 				</div>
 			</nav>
 		</footer>
-		<script src="../scripts/features.js"></script>
+		<script src="../scripts/buy.js"></script>
 	</body>
 </html>

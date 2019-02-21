@@ -1,4 +1,4 @@
-/* Page HomePod */
+
 
 @font-face {
   font-family: "SF Pro Text";
@@ -50,9 +50,21 @@ body {
   position: relative;
 }
 
-.menu_responsive{
+.menu-responsive{
   display: none;
 }
+
+/* CLASSE DE LA DIV DE RESPONSIVE */
+.isOpen{
+  top:0;
+  left: 0%;
+}
+
+.normal{
+  top:0;
+  left: -100%;
+}
+
 
 .menuItem a {
   text-decoration: none;
@@ -74,7 +86,7 @@ body {
   font-family: "SF Pro Text Bold";
 }
 
-div.hamburger_nav{
+div.hamburger-nav{
   display: none;
 }
 
@@ -218,19 +230,9 @@ main div.container p{
 
 
 
-
-
-
-
-
-
-
-
-
-
 /*Footer*/
 
-#footer {
+#footer{
   /* Déclaration du css footer */
   background-color: #f2f2f2;
   font-size: 11px;
@@ -241,12 +243,12 @@ main div.container p{
 }
 
 footer .footer-container-1 {
-  /* Déclaration du css footer .footer-container */
-  padding-top: 20px;
+    /* Déclaration du css footer .footer-container */
+    padding-top: 20px;
 
 }
 
-footer .footer-container-1 .col-1 {
+footer .footer-container-1 .col-1{
   /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
   background-color: #f2f2f2;
   font-size: 11px;
@@ -259,51 +261,52 @@ footer .footer-container-1 .col-1 {
 
 /* ul et li du footer */
 
-ul {
-  padding: 0px;
-  list-style: none;
-  text-align: center;
+.col-1 ul {
+    padding: 0px;
+    text-align: center;
 }
 
 
-ul li {
-
-  list-style: none;
-  padding: 2px 0;
-  text-align: center;
+.col-1 li {
+    list-style:none;
+    padding: 2px 0;
+    text-align: center;
 }
 
 
 
 /* Les titres boutons du footers */
 footer p.title-footer {
-  display: block;
-  text-align: center;
-  list-style: none;
-  font-weight: bold;
-  font-size: 12px;
-  text-decoration: none;
-  color: #333;
+    display: block;
+    text-align: center;
+    line-height: 1.5;
+    cursor: pointer;
+    list-style:none;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration:none;
+    color: #333;
 
 
 }
 
 /* Les Sous-titres boutons du footers */
 footer a.subtitle-footer {
-  display: block;
-  text-align: center;
-  line-height: 1.7;
-  cursor: pointer;
-  list-style: none;
-  text-decoration: none;
-  color: #555;
+    display: block;
+    text-align: center;
+    line-height: 1.7;
+    cursor: pointer;
+    list-style:none;
+    text-decoration:none;
+    color: #333;
 
 }
 
-.col-2-1 p {
-  margin: 0 40px;
+.col-2-1 p{
+  margin: 0 40px ;
   padding: 5px 0;
 }
+
 
 
 
@@ -339,7 +342,7 @@ footer a.subtitle-footer {
 		display: none;
 	}
 
-	div.hamburger_nav
+	div.hamburger-nav
 	{
 		display: block;
 	}
@@ -354,41 +357,42 @@ footer a.subtitle-footer {
 		display: none;
 	}
 
-	.menu_responsive
+	.menu-responsive
 	{
 		display: flex;
 		justify-content: flex-end;
 	}
 
-	.menu_responsive  a
+	.menu-responsive  a
 	{
 		text-decoration: none;
 		color: white;
-		font-size: 14px;
+		font-size: 20px;
 	}
 
-	.menu_responsive:hover a
+	.menu-responsive:hover a
 	{
 		opacity: 0.65;
 		transition: 0.2s;
 	}
 
-	.menu_responsive a img
+	.menu-responsive a img
 	{
-		height: 14px;
+		height: 20px;
 	}
 
-	.menu_responsive #logo
+	.menu-responsive #logo-responsive
 	{
-		font-size: 16px;
+    padding-left: 50px;
+		font-size: 20px;
 		font-family: "SF Pro Text Bold";
 	}
 
 	/* Main */
 	/* Footer*/
-	footer .footer_container_1 .col_1
+	footer .footer-container-1 .col-1
 	{
-		/* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+		/* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
 		background-color: #f2f2f2;
 		font-size: 11px;
 		height: auto;
@@ -398,7 +402,7 @@ footer a.subtitle-footer {
 		align-items: stretch;
 	}
 
-	footer p.title_footer
+	footer p.title-footer
 	{
 		padding-top: 5px;
 		display: block;
@@ -410,7 +414,7 @@ footer a.subtitle-footer {
 		color: #111;
 	}
 
-	footer a.subtitle_footer
+	footer a.subtitle-footer
 	{
 		display: block;
 		text-align: center;
@@ -421,7 +425,7 @@ footer a.subtitle-footer {
 		color: #555;
 	}
 
-	.col_2_1 p
+	.col-2-1 p
 	{
 		padding-top: 10px;
 		font-size: 12px;
@@ -457,7 +461,7 @@ footer a.subtitle-footer {
 		display: none;
 	}
 
-	div.hamburger_nav
+	div.hamburger-nav
 	{
 		display: block;
 	}
@@ -472,39 +476,39 @@ footer a.subtitle-footer {
 		display: none;
 	}
 
-	.menu_responsive
+	.menu-responsive
 	{
 		display: flex;
 		justify-content: flex-end;
 	}
 
-	.menu_responsive  a
+	.menu-responsive  a
 	{
 		text-decoration: none;
 		color: white;
-		font-size: 14px;
+		font-size: 20px;
 	}
 
-	.menu_responsive:hover a
+	.menu-responsive:hover a
 	{
 		opacity: 0.65;
 		transition: 0.2s;
 	}
 
-	.menu_responsive a img
+	.menu-responsive a img
 	{
-		height: 14px;
+		height: 20px;
 	}
 
-	.menu_responsive #logo
+	.menu-responsive #logo-responsive
 	{
-		font-size: 16px;
+		font-size: 20px;
 		font-family: "SF Pro Text Bold";
 	}
 
 	/* Main */
 	/* Footer*/
-	footer .footer_container_1 .col_1
+	footer .footer-container-1 .col-1
 	{
 		background-color: #f2f2f2;
 		font-size: 11px;
@@ -514,12 +518,12 @@ footer a.subtitle-footer {
 		flex-flow: row wrap;
 	}
 
-	div.col_1 div
+	div.col-1 div
 	{
 		width: 50%;
 	}
 
-	footer p.title_footer
+	footer p.title-footer
 	{
 		padding-top: 5px;
 		display: block;
@@ -531,7 +535,7 @@ footer a.subtitle-footer {
 		color: #111;
 	}
 
-	footer a.subtitle_footer
+	footer a.subtitle-footer
 	{
 		display: block;
 		text-align: center;
@@ -542,7 +546,7 @@ footer a.subtitle-footer {
 		color: #555;
 	}
 
-	.col_2_1 p
+	.col-2-1 p
 	{
 		padding-top: 10px;
 		font-size: 12px;
@@ -564,9 +568,9 @@ footer a.subtitle-footer {
 	/* Menu */
 	/* Main*/
 	/* Footer*/
-	footer .footer_container_1 .col_1
+	footer .footer-container-1 .col-1
 	{
-		/* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+		/* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
 		background-color: #f2f2f2;
 		font-size: 11px;
 		height: auto;
@@ -575,7 +579,7 @@ footer a.subtitle-footer {
 		justify-content: space-between;
 	}
 
-	footer p.title_footer
+	footer p.title-footer
 	{
 		padding-top: 5px;
 		display: block;
@@ -587,7 +591,7 @@ footer a.subtitle-footer {
 		color: #111;
 	}
 
-	footer a.subtitle_footer
+	footer a.subtitle-footer
 	{
 		display: block;
 		text-align: center;
@@ -598,7 +602,7 @@ footer a.subtitle-footer {
 		color: #555;
 	}
 
-	.col_2_1 p
+	.col-2-1 p
 	{
 		padding-top: 10px;
 		font-size: 12px;
@@ -615,9 +619,9 @@ footer a.subtitle-footer {
 	/* Menu*/
 	/* Main*/
 	/* Footer*/
-	footer .footer_container_1 .col_1
+	footer .footer-container-1 .col-1
 	{
-		/* Déclaration du css footer .footer_container .div_1 , (Parent des sections)*/
+		/* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
 		background-color: #f2f2f2;
 		font-size: 11px;
 		height: auto;
@@ -626,7 +630,7 @@ footer a.subtitle-footer {
 		justify-content: space-between;
 	}
 
-	footer p.title_footer
+	footer p.title-footer
 	{
 		padding-top: 5px;
 		display: block;
@@ -638,7 +642,7 @@ footer a.subtitle-footer {
 		color: #111;
 	}
 
-	footer a.subtitle_footer
+	footer a.subtitle-footer
 	{
 		display: block;
 		text-align: center;
@@ -649,7 +653,7 @@ footer a.subtitle-footer {
 		color: #555;
 	}
 
-	.col_2_1 p
+	.col-2-1 p
 	{
 		padding-top: 10px;
 		font-size: 12px;
