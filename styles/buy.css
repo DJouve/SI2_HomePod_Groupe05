@@ -179,6 +179,7 @@
       flex-direction: row;
       align-items: center;
       height: 70vh;
+      margin-top: 50px;
   }
 
 	.slider{
@@ -363,6 +364,7 @@
 
 .titleCaract {
   text-align: center;
+  margin-top: 80px;
 }
 
 .titleCaract h2{
@@ -901,7 +903,7 @@ h3{
       /* Main */
 
 
-      .hero {
+      div.hero {
           display: flex;
           width: 90vw;
           flex-wrap: wrap;
@@ -918,7 +920,7 @@ h3{
 
       }
 
-        .hero-informations {
+      .hero-informations {
       display: flex;
       flex-direction: column;
       width: 310px;
