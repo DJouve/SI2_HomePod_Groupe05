@@ -566,7 +566,6 @@ h3{
   	.container
   	{
   		width: 100%;
-  		margin: 0 auto;
   	}
 
 
@@ -735,6 +734,29 @@ h3{
       margin-left: 20px;
     }
 
+    .text-caract{
+      flex-direction: column;
+    }
+    .text-caract .image-caract{
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .block-principal {
+    font-size: 16px;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+     }
+
+     div.titleCaract{
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       align-items: center;
+
+
+     }
 
   	/* Footer*/
   	footer .footer-container-1 .col-1
@@ -787,7 +809,7 @@ h3{
   	.container
   	{
   		width: 100%;
-  		margin: 0;
+
   	}
 
 
@@ -932,15 +954,20 @@ h3{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
-        margin-top: 600px;
+        /* margin-top: 600px; */
 
       }
-
+      .text-caract{
+        flex-direction: column;
+      }
+      .text-caract .image-caract{
+        margin-left: auto;
+        margin-right: auto;
+      }
       .hero-informations {
       display: flex;
       flex-direction: column;
       width: 310px;
-      margin-left: 35vh;
        }
 
        .slider {
@@ -958,6 +985,28 @@ h3{
         margin-left: 20px;
       }
 
+      .text-caract{
+        flex-direction: column;
+      }
+      .text-caract .image-caract{
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .block-principal {
+      font-size: 16px;
+      margin-top: 70px;
+      margin-left: 30px;
+      margin-right: 30px;
+       }
+
+       div.titleCaract{
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+         align-items: center;
+
+       }
 
 
 
