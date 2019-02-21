@@ -236,7 +236,115 @@ main div.container p{
   font-size: 25px;
 }
 
+/*slider*/
+.slider{
+  position:relative;
+  margin:20px 0;
+  width:100%;
+  height: 400px;
+  overflow: hidden;
+}
 
+.sliderContainer{
+  position:absolute;
+  display: flex;
+  transition:ease-in 0.5s all;
+  will-change:left;
+}
+
+.sliderContainer img{
+  margin:60px 10px;
+}
+
+.arrowLeft{
+  position: absolute;
+  top: 260px;
+  left:200px;
+  background: white;
+  color: black;
+  padding: 15px;
+  border:2px solid black;
+  border-radius: 20%;
+}
+.arrowRight{
+  position: absolute;
+  top: 260px;
+  right: 200px;
+  background: white;
+  color: black;
+  padding: 15px;
+  border:2px solid black;
+  border-radius: 20%;
+}
+
+
+/*ondes*/
+.container{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.main-center{
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ondes{
+  width: 600px;
+  margin: 0px 170px;
+  height: 400px;
+}
+
+.main-center img{
+  height: 100px;
+  margin-bottom: -10px;
+}
+
+/*Music*/
+
+.main-music{
+  width: 600px;
+  margin: 60px auto;
+  text-align: center;
+}
+#music{
+  height: 500px;
+}
+
+#space{
+  margin-bottom: -20px;
+}
+
+.main-music img#logo{
+  height: 80px;
+  weight: 80px;
+}
+
+h2{
+  font-size: 40px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ee5253), to(#ff9f43));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a{
+  font-size: 13px;
+}
+
+a:hover{
+  font-size: 14px;
+  cursor: pointer;
+  color: blue;
+}
+
+#lien{
+  margin-bottom: 0px;
+}
+
+#margin{
+  padding-top: 50px;
+}
 
 /*Footer*/
 
