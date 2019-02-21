@@ -27,13 +27,14 @@ body {
 }
 
 
+
 #header{
   z-index: 10;
   background: linear-gradient(to right, #777dff,#497ce2, #37bdde, #f154ff, #f0357c);
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;   
+  width: 100vw;
 }
 
 /* Menu Normal */
@@ -245,8 +246,9 @@ main div.container p{
   font-size: 11px;
   height: auto;
   width: 100%;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 5px 0;
+
+
 }
 
 footer .footer-container-1 {
@@ -285,12 +287,12 @@ footer .footer-container-1 .col-1{
 /* Les titres boutons du footers */
 footer p.title-footer {
     display: block;
-    text-align: center;
+    text-align: left;
     line-height: 1.5;
     cursor: pointer;
     list-style:none;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 11px;
     text-decoration:none;
     color: #333;
 
@@ -300,8 +302,9 @@ footer p.title-footer {
 /* Les Sous-titres boutons du footers */
 footer a.subtitle-footer {
     display: block;
-    text-align: center;
+    text-align: left;
     line-height: 1.7;
+    font-size: 10px;
     cursor: pointer;
     list-style:none;
     text-decoration:none;
@@ -312,7 +315,6 @@ footer a.subtitle-footer {
 .col-2-1 p{
   margin-top:40px ;
 }
-
 
 
 
