@@ -311,6 +311,145 @@ a:hover{
   padding-top: 50px;
 }
 
+.main-center h2{
+  font-size: 35px;
+}
+
+
+img {
+  height: 65px;
+}
+
+.siri{
+  text-align: center;
+}
+
+.siri-questions{
+  margin-bottom: 50px;
+
+}
+
+
+.siri h1{
+  font-size: 50px;
+    background: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.siri-questions p{
+  color: #000069;
+  font-size: 25px;
+  margin-top: -10px;
+  font-weight: bold;
+}
+
+
+.help-siri{
+  text-align: center;
+  margin-top: 65px;
+}
+
+.help-siri p {
+  font-size: 25px;
+}
+
+.help-siri h1{
+  font-size: 65px;
+  color: #4F4F4F;
+}
+
+.smart1 h3{
+  text-align: center;
+  font-size: 25px;
+}
+
+.smart1 p{
+  text-align: center;
+  font-size: 19px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.smart1 {
+  text-align: center;
+
+}
+
+.smart1 a{
+  color: blue;
+
+}
+
+.smart2{
+  text-align: center;
+}
+
+.smart3{
+  text-align: center;
+}
+
+
+.smart2 p{
+  margin-top: -10px;
+}
+
+.smart3 p{
+  margin-top: -10px;
+}
+
+.smart3 a{
+  color: blue;
+
+}
+
+.siri2{
+  text-align: center;
+}
+
+.siri-questions2{
+  margin-bottom: 50px;
+}
+
+.siri2 h1{
+  font-size: 50px;
+    background: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.siri-questions2 p{
+  color: #000069;
+  font-size: 25px;
+  margin-top: -10px;
+  font-weight: bold;
+}
+
+.space-padding{
+  margin-top: 60px;
+}
+
+/*Icônes*/
+
+.icon{
+  display: flex;
+  margin-left: 630px;
+  margin-right: 630px;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+figure{
+  text-align: center;
+  margin: 5px;
+  margin-right: 40px;
+}
+
+.radius{
+  border-radius: 25%;
+}
+
 .callout {
 	font-size: 16px;
 	font-weight: 400;
