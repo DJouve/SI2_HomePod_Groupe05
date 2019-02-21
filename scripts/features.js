@@ -1,8 +1,22 @@
+/* Reponsive Menu */
+
+const hamb = document.querySelector('.hamburger')
+const menu = document.querySelector('.responsive-menu-none')
+
+hamb.addEventListener(
+  'click',
+  function(){
+      menu.classList.toggle('responsive-menu-none')
+      menu.classList.toggle('responsive-menu-open')
+  }
+)
+
+
+
+/* ?*/
+
 const divOffset = [...document.querySelectorAll('.div')]
 const buttonOffset = [...document.querySelectorAll('.button')]
-
-
-
 
 
 for(let i = 0; i<buttonOffset.length; i++){
@@ -14,13 +28,13 @@ for(let i = 0; i<buttonOffset.length; i++){
         }
         buttonOffset[i].classList.add('blue')
         for(let j=0; j<6; j++){
-            
+
             if (divOffset[j].style.display =='block'){
                 divOffset[j].style.display = 'none'
             }
-            
+
         }
         divOffset[i].style.display = 'block'
     })
-    
+
 }
