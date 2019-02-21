@@ -690,13 +690,41 @@ h3{
 
       .hero {
           display: flex;
-          width: 80vw;
+          width: 90vw;
           flex-wrap: wrap;
           flex-direction: row;
           align-items: center;
       }
 
+      div.titleCaract{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 600px;
 
+      }
+
+      .hero-informations {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    margin-left: 8vh;
+     }
+
+     .slider {
+    height: 480px;
+    width: 420px;
+    position: relative;
+    overflow: hidden;
+    }
+    .titleCaract h2 {
+      font-size: 30px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
 
 
   	/* Footer*/
@@ -869,12 +897,13 @@ h3{
       }
 
 
-  	/* Main */
+
+      /* Main */
 
 
       .hero {
           display: flex;
-          width: 80vw;
+          width: 90vw;
           flex-wrap: wrap;
           flex-direction: row;
           align-items: center;
@@ -888,6 +917,31 @@ h3{
         margin-top: 600px;
 
       }
+
+        .hero-informations {
+      display: flex;
+      flex-direction: column;
+      width: 310px;
+      margin-left: 35vh;
+       }
+
+       .slider {
+      height: 480px;
+      width: 420px;
+      position: relative;
+      overflow: hidden;
+      left: 25%;
+      }
+      .titleCaract h2 {
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+
+
+
 
 
   	/* Footer*/
