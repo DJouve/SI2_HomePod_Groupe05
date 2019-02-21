@@ -4,11 +4,11 @@ const hamb = document.querySelector('.hamburger')
 const menu = document.querySelector('.responsive-menu-none')
 
 hamb.addEventListener(
-  'click',
-  function(){
-      menu.classList.toggle('responsive-menu-none')
-      menu.classList.toggle('responsive-menu-open')
-  }
+    'click',
+    function () {
+        menu.classList.toggle('responsive-menu-none')
+        menu.classList.toggle('responsive-menu-open')
+    }
 )
 
 
@@ -19,17 +19,17 @@ const divOffset = [...document.querySelectorAll('.div')]
 const buttonOffset = [...document.querySelectorAll('.button')]
 
 
-for(let i = 0; i<buttonOffset.length; i++){
-    buttonOffset[i].addEventListener('click', ()=>{
-        for (let k=0; k<buttonOffset.length ; k++){
-            if (buttonOffset[k].classList.contains("blue")){
+for (let i = 0; i < buttonOffset.length; i++) {
+    buttonOffset[i].addEventListener('click', () => {
+        for (let k = 0; k < buttonOffset.length; k++) {
+            if (buttonOffset[k].classList.contains("blue")) {
                 buttonOffset[k].classList.remove("blue")
             }
         }
         buttonOffset[i].classList.add('blue')
-        for(let j=0; j<6; j++){
+        for (let j = 0; j < 6; j++) {
 
-            if (divOffset[j].style.display =='block'){
+            if (divOffset[j].style.display == 'block') {
                 divOffset[j].style.display = 'none'
             }
 
