@@ -25,16 +25,25 @@
 		overflow: hidden;
   }
 
-  /* Menu */
+  main.container{
+    margin: 60px 0;
+  }
 
-	#header{
+ div.hero{
+   margin: 20px;
+ }
+
+
+  #header{
     z-index: 10;
     background: linear-gradient(to right, #777dff,#497ce2, #37bdde, #f154ff, #f0357c);
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;   
-}
+    width: 100vw;
+  }
+
+  /* Menu Normal */
 
   .primaryMenu {
     display: flex;
@@ -72,6 +81,37 @@
     font-family: "SF Pro Text Bold";
   }
 
+  /* Menu Reponsive*/
+
+  .menu-responsive{
+    display: none;
+  }
+
+  div.responsive-menu{
+    display: none;
+  }
+
+  div.hamburger-nav{
+    display: none;
+  }
+
+  /* IF CLICK : OPEN */
+   div.responsive-menu-open{
+     display: flex;
+     justify-content: space-between;
+   }
+
+   /* IF NOT CLICK : CLOSE */
+   div.responsive-menu-none{
+     display: none;
+   }
+
+
+  .flex{
+      display: flex;
+  }
+
+
   /* Button acheter */
 
   .buy-button {
@@ -92,7 +132,7 @@
     text-decoration: none;
   }
 
-	
+
 
 
 
@@ -141,12 +181,12 @@
 		transition: ease-in .5s all;
 		will-change: left;
 	}
-	
+
 	.sliderContainer img{
 		margin: 0 10px;
-		
+
 	}
-	
+
 	.dots{
 		position: absolute;
 		bottom: 20px;
@@ -167,7 +207,7 @@
 	.dots li a.current{
 		background-color: #888;
 	}
-	
+
   .hero-informations {
       display: flex;
       flex-direction: column;
@@ -389,11 +429,12 @@
   	/*Taille de la fenetre*/
   	.container
   	{
-  		width: 440px;
+  		width: 240px;
   		margin: 0 auto;
   	}
 
-  	/* Menu */
+    /*Menu normal avec responsive */
+
   	.primaryMenu
   	{
   		display: flex;
@@ -411,14 +452,15 @@
   		display: none;
   	}
 
-  	div.hamburger-nav
-  	{
-  		display: block;
-  	}
+    div.hamburger-nav
+    {
+      display: flex;
+      justify-content: space-between;
+    }
 
   	button.hamburger
   	{
-  		margin: 10px;
+  		margin: 0;
   	}
 
   	ul.primaryMenu
@@ -426,17 +468,18 @@
   		display: none;
   	}
 
+
+
   	.menu-responsive
   	{
-  		display: flex;
-  		justify-content: flex-end;
+  		display: block;
   	}
 
   	.menu-responsive  a
   	{
   		text-decoration: none;
   		color: white;
-  		font-size: 14px;
+  		font-size: 20px;
   	}
 
   	.menu-responsive:hover a
@@ -447,14 +490,65 @@
 
   	.menu-responsive a img
   	{
-  		height: 14px;
+  		height: 20px;
   	}
 
-  	.menu-responsive .logo
+  	.menu-responsive #logo-responsive
   	{
-  		font-size: 16px;
+      padding-left: 50px;
+  		font-size: 20px;
   		font-family: "SF Pro Text Bold";
   	}
+
+    /*Menu responsive */
+
+    .primaryMenu-responsive {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      list-style: none;
+      width: 100%;
+      height: 180px;
+      margin: 0;
+      padding: 0;
+    }
+
+    li.menuItem-responsive{
+      padding: 5px;
+
+    }
+
+    .menuItem-responsive {
+      flex-direction: row;
+      position: relative;
+    }
+
+    .menuItem-responsive a {
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+    }
+
+    .menuItem-responsive:hover a {
+      opacity: 0.65;
+      transition: 0.2s;
+    }
+
+    .menuItem-responsive a img {
+      height: 14px;
+    }
+
+    #logo {
+      font-size: 16px;
+      font-family: "SF Pro Text Bold";
+    }
+
+    a#logo-responsive{
+      display: block;
+      margin: 18px 0;
+    }
+
+
 
   	/* Main */
   	/* Footer*/
@@ -495,14 +589,14 @@
 
   	.col-2-1 p
   	{
-  		padding-top: 10px;
-  		font-size: 12px;
+  		padding-top:40px;
+  		padding: 0;
   	}
   }
 
 
   /*Format Téléphone (440PX/760PX) */
-  @media only screen and (min-width : 440px) and (max-width : 760px)
+  @media only screen and (min-width : 440px) and (max-width : 979px)
   {
   	/*Taille de la fenetre*/
   	.container
@@ -511,7 +605,8 @@
   		margin: 0 auto;
   	}
 
-  	/* Menu */
+    /*Menu normal avec responsive */
+
   	.primaryMenu
   	{
   		display: flex;
@@ -529,14 +624,15 @@
   		display: none;
   	}
 
-  	div.hamburger-nav
-  	{
-  		display: block;
-  	}
+    div.hamburger-nav
+    {
+      display: flex;
+      justify-content: space-between;
+    }
 
   	button.hamburger
   	{
-  		margin: 10px;
+  		margin: 0;
   	}
 
   	ul.primaryMenu
@@ -544,17 +640,18 @@
   		display: none;
   	}
 
+
+
   	.menu-responsive
   	{
-  		display: flex;
-  		justify-content: flex-end;
+  		display: block;
   	}
 
   	.menu-responsive  a
   	{
   		text-decoration: none;
   		color: white;
-  		font-size: 14px;
+  		font-size: 20px;
   	}
 
   	.menu-responsive:hover a
@@ -565,14 +662,63 @@
 
   	.menu-responsive a img
   	{
-  		height: 14px;
+  		height: 20px;
   	}
 
-  	.menu-responsive .logo
+  	.menu-responsive #logo-responsive
   	{
-  		font-size: 16px;
+      padding-left: 50px;
+  		font-size: 20px;
   		font-family: "SF Pro Text Bold";
   	}
+
+    /*Menu responsive */
+
+    .primaryMenu-responsive {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      list-style: none;
+      width: 100%;
+      height: 180px;
+      margin: 0;
+      padding: 0;
+    }
+
+    li.menuItem-responsive{
+      padding: 5px;
+
+    }
+
+    .menuItem-responsive {
+      flex-direction: row;
+      position: relative;
+    }
+
+    .menuItem-responsive a {
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+    }
+
+    .menuItem-responsive:hover a {
+      opacity: 0.65;
+      transition: 0.2s;
+    }
+
+    .menuItem-responsive a img {
+      height: 14px;
+    }
+
+    #logo {
+      font-size: 16px;
+      font-family: "SF Pro Text Bold";
+    }
+
+      a#logo-responsive{
+        display: block;
+        margin: 18px 0;
+      }
 
   	/* Main */
   	/* Footer*/
@@ -614,22 +760,19 @@
   		color: #555;
   	}
 
-  	.col-2-1 p
-  	{
-  		padding-top: 10px;
-  		font-size: 12px;
-  	}
-  }
-
+    .col-2-1 p{
+      margin-top:40px ;
+      padding: 0;
+    }
 
 
   /*Format Tablette (760PX/1080PX) */
-  @media only screen and (min-width : 760px) and (max-width : 1080px)
+  @media only screen and (min-width : 980px) and (max-width : 1080px)
   {
   	/*Taille de la fenetre*/
   	.container
   	{
-  		width: 760px;
+  		width: 980px;
   		margin: 0 auto;
   	}
 
@@ -681,10 +824,6 @@
   /*Format grands écrants (+1480PX) */
   @media only screen and (min-width :1480px)
   {
-  	/*Taille de la fenetre*/
-
-
-
 
   	/* Menu*/
   	/* Main*/
