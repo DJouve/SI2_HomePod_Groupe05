@@ -100,6 +100,7 @@
       display: flex;
   }
 
+
   .homepod{
     background: white;
     height: 60px;
@@ -162,6 +163,12 @@
   }
 
 
+  /* Main */
+
+  main{
+    width: 100vw;
+    overflow: hidden;
+  }
 
 
   /* Hero */
@@ -360,10 +367,14 @@
 
 .titleCaract h2{
   font-size: 30px;
-  font-weight: bold;
+  font-family: "SF Pro Text Bold";
   letter-spacing: 1px;
   margin-top: 20px;
+}
 
+h3{
+  font-family: "SF Pro Text Bold";
+  margin-bottom: 15px;
 }
 
 .titleCaract p{
@@ -373,8 +384,8 @@
 }
 
 .titleCaract img{
-
-  margin: 30px auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
   width: 760px;
 }
 
@@ -382,16 +393,14 @@
   text-align: center;
   font-size: 30px;
   letter-spacing: 1px;
-  margin-top: 35px;
-  font-weight: bold;
-  padding-bottom: 12px;
-  padding-top: 42px;
+  margin-top: -50px;
+  margin-bottom: 30px;
   font-size: 40px;
   line-height: 1.05;
   display: flex;
   flex-direction: row;
-
 }
+
 
 .image-caract img{
   display: block;
@@ -403,7 +412,7 @@
 .block1-1,.block1-2 {
     display: block;
     margin-top: 20px;
-    width: 400px;
+    width: 100%;
     flex-direction: row;
     padding: 0px;
     border-radius: 4px;
@@ -413,16 +422,22 @@
   display: flex;
   flex-direction: row;
   border-top: 1px solid #888;
+  margin: 10px;
 }
 
 .block-principal{
-  font-size: 18px;
+  font-size: 16px;
+  margin-top: 70px;
+  margin-left: 75px;
 }
 
+.block-principal li{
+  margin-bottom: 5px;
+}
 .block2-1,.block2-2 {
   display: block;
   margin-top: 20px;
-  width: 400px;
+  width: 100%;
   flex-direction: row;
   padding: 0px;
   border-radius: 4px;
@@ -432,12 +447,13 @@
   display: flex;
   flex-direction: row;
   border-top: 1px solid #888;
+  margin: 10px;
   }
 
 .block3-1,.block3-2 {
     display: block;
     margin-top: 20px;
-    width: 400px;
+    width: 100%;
     flex-direction: row;
     padding: 0px;
     border-radius: 4px;
@@ -447,7 +463,8 @@
     display: flex;
     flex-direction: row;
     border-top: 1px solid #888;
-    }
+    margin: 10px;
+  }
 
 
 
@@ -546,9 +563,10 @@
   	/*Taille de la fenetre*/
   	.container
   	{
-  		width: 240px;
+  		width: 100%;
   		margin: 0 auto;
   	}
+
 
     /*Menu normal avec responsive */
 
@@ -668,6 +686,47 @@
 
 
   	/* Main */
+
+
+      .hero {
+          display: flex;
+          width: 90vw;
+          flex-wrap: wrap;
+          flex-direction: row;
+          align-items: center;
+      }
+
+      div.titleCaract{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 600px;
+
+      }
+
+      .hero-informations {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    margin-left: 8vh;
+     }
+
+     .slider {
+    height: 480px;
+    width: 420px;
+    position: relative;
+    overflow: hidden;
+    }
+    .titleCaract h2 {
+      font-size: 30px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+
+
   	/* Footer*/
   	footer .footer-container-1 .col-1
   	{
@@ -718,8 +777,8 @@
   	/*Taille de la fenetre*/
   	.container
   	{
-  		width: 440px;
-  		margin: 0 auto;
+  		width: 100%;
+  		margin: 0;
   	}
 
     /*Menu normal avec responsive */
@@ -837,7 +896,54 @@
         margin: 18px 0;
       }
 
-  	/* Main */
+
+
+      /* Main */
+
+
+      .hero {
+          display: flex;
+          width: 90vw;
+          flex-wrap: wrap;
+          flex-direction: row;
+          align-items: center;
+      }
+
+      div.titleCaract{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 600px;
+
+      }
+
+        .hero-informations {
+      display: flex;
+      flex-direction: column;
+      width: 310px;
+      margin-left: 35vh;
+       }
+
+       .slider {
+      height: 480px;
+      width: 420px;
+      position: relative;
+      overflow: hidden;
+      left: 25%;
+      }
+      .titleCaract h2 {
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+
+
+
+
+
   	/* Footer*/
   	footer .footer-container-1 .col-1
   	{
@@ -889,7 +995,7 @@
   	/*Taille de la fenetre*/
   	.container
   	{
-  		width: 980px;
+  		width: 100%;
   		margin: 0 auto;
   	}
 
