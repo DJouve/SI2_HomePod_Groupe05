@@ -28,7 +28,9 @@ body {
 
 
 #header {
+  z-index: 10;
   background: linear-gradient(to right, #777dff, #497ce2, #37bdde, #f154ff, #f0357c);
+  width: 100vw;
 }
 
 /* Menu Normal */
@@ -142,6 +144,93 @@ div.hamburger-nav{
 }
 
 /* Main */
+
+main{
+  width: 100vw;
+  height: 1200px;
+  overflow: hidden;
+}
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+/* Images du main */
+ #img1{
+   z-index: -5;
+   width: 1280px;
+   height: 800px;
+   /*top: -185px;
+   left: -445px;*/
+   transform: translateX(-500px) translateY(-200px);
+ }
+ #img2{
+   z-index: -4;
+  width: 350px;
+  height: 350px;
+  top: 50px;
+  left: 60px;
+ }
+ #img3{
+   z-index: -5;
+   width: 515px;
+   height: 500px;
+   top: 0;
+   right: 0;
+   transform: translateX(200px) translateY(200px);
+ }
+ #img4{
+   z-index: -4;
+   width: 780px;
+   height: 400px;
+   top: 0;
+   right: 0;
+   transform: translateX(175px) translateY(240px);
+ }
+
+ /* Texte du main */
+.h1{
+  text-align: center;
+  width: 600px;
+  height: auto;
+  top: 0;
+  left: 0;
+  transform: translateX(530px) translateY(50px);
+}
+.h1 h1{
+  color: grey;
+  font-size: 55px;
+}
+.h2{
+  text-align: center;
+  width: 500px;
+  height: auto;
+  margin-top: 200px;
+  margin-left: 450px;
+  margin-bottom: 100px;
+}
+.h2 h2{
+  font-weight: lighter;
+  font-size: 30px;
+}
+main div.container{
+  text-align: center;
+}
+main div.container h3{
+  width: 300px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 0;
+}
+main div.container span{
+  font-size: 35px;
+}
+
+main div.container p{
+  font-size: 25px;
+}
 
 
 
