@@ -284,9 +284,7 @@ main div.container p{
 
 h2{
   font-size: 40px;
-  background: linear-gradient(to right, #2f3640, #353b48);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  color: white;
 }
 
 a{
