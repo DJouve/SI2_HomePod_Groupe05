@@ -289,10 +289,6 @@ main div.container p{
   height: 80px;
 }
 
-h2.size{
-  font-size: 40px;
-}
-
 h2.white{
   font-size: 40px;
   color: white;
@@ -333,6 +329,7 @@ img {
   margin-bottom: 50px;
 
 }
+
 
 .siri h1{
   font-size: 50px;
