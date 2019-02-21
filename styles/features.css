@@ -597,48 +597,53 @@ footer a.subtitle-footer {
     .last-info li{
         font-size: 18px;
     }
-	/* Footer*/
-	footer .footer-container-1 .col-1
-	{
-		/* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
-		background-color: #f2f2f2;
-		font-size: 11px;
-		height: auto;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: stretch;
-	}
 
-	footer p.title-footer
-	{
-		padding-top: 5px;
-		display: block;
-		text-align: center;
-		list-style: none;
-		font-weight: bold;
-		font-size: 15px;
-		text-decoration: none;
-		color: #111;
-	}
 
-	footer a.subtitle-footer
-	{
-		display: block;
-		text-align: center;
-		line-height: 1.7;
-		cursor: pointer;
-		list-style:none;
-		text-decoration:none;
-		color: #555;
-	}
+    /* Footer*/
+  	footer .footer-container-1 .col-1
+  	{
+  		background-color: #f2f2f2;
+  		font-size: 11px;
+  		height: auto;
+  		width: 100%;
+  		display: flex;
+  		flex-flow: row wrap;
+  	}
 
-	.col-2-1 p
-	{
-		padding-top:40px;
-		padding: 0;
-	}
-}
+  	div.col-1 div
+  	{
+  		width: 50%;
+  	}
+
+  	footer p.title-footer
+  	{
+  		padding-top: 5px;
+  		display: block;
+  		text-align: center;
+  		list-style: none;
+  		font-weight: bold;
+  		font-size: 15px;
+  		text-decoration: none;
+  		color: #111;
+  	}
+
+  	footer a.subtitle-footer
+  	{
+  		display: block;
+  		text-align: center;
+  		line-height: 1.7;
+  		cursor: pointer;
+  		list-style:none;
+  		text-decoration:none;
+  		color: #555;
+  	}
+
+    .col-2-1 p{
+      margin-top:40px ;
+      padding: 0;
+    }
+
+
 
 
 /*Format Tablette (760PX/1080PX) */
@@ -778,4 +783,5 @@ footer a.subtitle-footer {
 		padding-top: 10px;
 		font-size: 12px;
 	}
+}
 }
