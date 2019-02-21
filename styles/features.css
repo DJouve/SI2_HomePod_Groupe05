@@ -261,7 +261,9 @@ div.hamburger-nav{
     box-shadow: 1px 1px 4px #999;
 }
 .button-offset:hover{
-    background-color: #0070c9;
+    background-color: #147bcd;
+    background: linear-gradient(#51a9ee,#147bcd);
+    border-color: #1482d0;
     color: white;
     transition: 0.2s;
 }
@@ -300,7 +302,9 @@ button,.button-offset:hover{
     cursor: pointer;
 }
 .blue{
-    background-color: #0070c9;
+    background-color: #147bcd;
+    background: linear-gradient(#51a9ee,#147bcd);
+    border-color: #1482d0;
     color: white;
 }
 
