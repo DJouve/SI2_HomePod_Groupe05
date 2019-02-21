@@ -218,7 +218,7 @@ main{
   font-size: 30px;
 }
 main div.container{
-  
+
   text-align: center;
 }
 main div.container h3{
@@ -282,9 +282,7 @@ main div.container p{
 
 h2{
   font-size: 40px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#b2bec3), to(#636e72));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: linear-gradient(to right, #777dff,#497ce2, #37bdde, #f154ff, #f0357c);
 }
 
 a{
