@@ -201,11 +201,11 @@ div.hamburger-nav{
     font-size: 40px;
     font-weight: bold;
     padding: 20px;
+    margin-top: 20px;
 }
 
 /* Div caractéristiques*/
 .caract{
-    margin-top: 20px;
     width: 400px;
     flex-direction: row;
     padding: 20px;
@@ -310,6 +310,9 @@ button,.button-offset:hover{
     justify-content: space-around;
     flex-flow: row wrap;
 }
+.bloc-1-2 h5{
+    font-size: 24px;
+}
 .bloc-1-2{
     width: 440px;
     padding: 5px;
@@ -411,7 +414,7 @@ footer a.subtitle-footer {
 /* RESPONSIVE */
 
 /*Format Téléphone (- 440PX)*/
-@media only screen and (max-width : 768px)
+@media only screen and (max-width : 800px)
 
 {
 	/*Taille de la fenetre*/
@@ -434,17 +437,23 @@ footer a.subtitle-footer {
 		margin: 0;
 		padding: 0;
 	}
-
+    header nav{
+        width: 100vw
+    }
 	.menuItem
 	{
-		display: none;
+        display: none;
 	}
 
-  div.hamburger-nav
-  {
-    display: flex;
-    justify-content: space-around;
-  }
+    div.hamburger-nav
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    header nav.container{
+        width: 100%;
+        margin: 0;
+    }
 
 	button.hamburger
 	{
@@ -460,7 +469,8 @@ footer a.subtitle-footer {
 
 	.menu-responsive
 	{
-		display: block;
+        display: block;
+        margin-right: 40px;
 	}
 
 	.menu-responsive  a
@@ -478,7 +488,7 @@ footer a.subtitle-footer {
 
 	.menu-responsive a img
 	{
-		height: 20px;
+		height: 16px;
 	}
 
 	.menu-responsive #logo-responsive
@@ -628,7 +638,7 @@ footer a.subtitle-footer {
 
 
 /*Format Tablette (760PX/1080PX) */
-@media only screen and (min-width : 769px) and (max-width : 1024px)
+@media only screen and (min-width : 801px) and (max-width : 1024px)
 {
 	/*Taille de la fenetre*/
 	.container
