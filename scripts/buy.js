@@ -16,6 +16,7 @@ $appleCare.addEventListener('click', () => {
     }
 })
 
+
 //slider
 
 const pictures 		  = document.querySelectorAll(".sliderContainer img")
@@ -77,3 +78,18 @@ for(let i = 0; i<colorButtons.length; i++){
         }
     })
 }
+
+const colorItem = [...document.querySelectorAll('.color-item')]
+const selectorChoice = document.querySelector('.selector-choice')
+let isAdd = true
+
+for(let k = 0; k<= colorItem.length; k++){
+    colorItem[k].addEventListener('click', () => {
+        let selected = document.querySelector('.selector-choice')
+        if (selected != null) {
+            selected.classList.remove('selector-choice')
+        }
+        colorItem[k].classList.add('selector-choice')
+    })
+}
+    

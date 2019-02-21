@@ -185,6 +185,7 @@
     margin: 10px 0;
 }
 
+
   .hero-informations .color-selec .color-item{
     background: #f2f2f2;
     border-radius: 4px;
@@ -195,8 +196,12 @@
     width: 150px;
     padding: 10px;
     justify-content: center;
-    cursor: pointer;
-  }
+		cursor: pointer;
+	}
+	
+	.hero-informations .color-selec .color-item.selector-choice{
+		border: 2px solid #07c;
+	}
 
   .hero-informations .color-selec .color-item:first-child {
       margin-right: 15px;
