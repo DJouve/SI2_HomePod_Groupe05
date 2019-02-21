@@ -195,7 +195,7 @@ main{
  /* Texte du main */
 .h1{
   text-align: center;
-  width:47vw; 
+  width:47vw;
   margin: 0 auto;
   margin-top: 80px;
   margin-bottom: 100px;
@@ -284,7 +284,9 @@ main div.container p{
 
 h2{
   font-size: 40px;
-  color: linear-gradient(to right, #777dff,#497ce2, #37bdde, #f154ff, #f0357c);
+  background: linear-gradient(to right, #b2bec3, #2d3436);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 a{
