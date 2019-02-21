@@ -27,10 +27,13 @@ body {
 }
 
 
-#header {
+#header{
   z-index: 10;
-  background: linear-gradient(to right, #777dff, #497ce2, #37bdde, #f154ff, #f0357c);
-  width: 100vw;
+  background: linear-gradient(to right, #777dff,#497ce2, #37bdde, #f154ff, #f0357c);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;   
 }
 
 /* Menu Normal */
