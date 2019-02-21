@@ -25,9 +25,7 @@
 		overflow: hidden;
   }
 
-  main.container{
-    margin: 60px 0;
-  }
+  
 
  div.hero{
    margin: 20px;
@@ -876,3 +874,4 @@
   		font-size: 12px;
   	}
   }
+}
