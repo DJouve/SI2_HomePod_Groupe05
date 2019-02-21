@@ -1,3 +1,5 @@
+/* Reponsive Menu */
+
 const hamb = document.querySelector('.hamburger')
 const menu = document.querySelector('.responsive-menu-none')
 
