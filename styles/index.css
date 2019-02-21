@@ -608,7 +608,7 @@ footer a.subtitle-footer {
 	/*Taille de la fenetre*/
 	.container
 	{
-		width: 440px;
+		width: 100%;
 		margin: 0 auto;
 	}
 
@@ -779,7 +779,7 @@ footer a.subtitle-footer {
 	/*Taille de la fenetre*/
 	.container
 	{
-		width: 980px;
+		width: 100%;
 		margin: 0 auto;
 	}
 
