@@ -56,3 +56,24 @@ for(let i = 0; i < dots.length; i++){
 	})
 
 }
+
+//color change button
+
+const colorButtons = [...document.querySelectorAll('button.color-item')]
+const sliderImages = [...document.querySelectorAll('.sliderContainer img')]
+let color
+for(let i = 0; i<colorButtons.length; i++){
+    colorButtons[i].addEventListener('click',()=>{
+        if(i==0){
+            //white
+            color = 'white'
+        }
+        else{
+            //black
+            color = 'black'
+        }
+        for(let j=0; j<sliderImages.length; j++){
+                sliderImages[j].src = `../images/homepod-${color}-${j}.png`
+        }
+    })
+}
