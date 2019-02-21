@@ -195,7 +195,7 @@ main{
  /* Texte du main */
 .h1{
   text-align: center;
-  width:47vw; 
+  width:47vw;
   margin: 0 auto;
   margin-top: 80px;
   margin-bottom: 100px;
@@ -423,120 +423,127 @@ footer a.subtitle-footer {
   	}
 
 
-    /*Menu normal avec responsive */
+      /*Menu normal avec responsive */
 
-  	.primaryMenu
-  	{
-  		display: flex;
-  		justify-content: space-between;
-  		align-items: center;
-  		list-style: none;
-  		width: 100%;
-  		height: 48px;
-  		margin: 0;
-  		padding: 0;
-  	}
+    	.primaryMenu
+    	{
+    		display: flex;
+    		justify-content: space-between;
+    		align-items: center;
+    		list-style: none;
+    		width: 100vw;
+    		height: 48px;
+    		margin: 0;
+    		padding: 0;
+    	}
+        header nav{
+            width: 100vw
+        }
+    	.menuItem
+    	{
+            display: none;
+    	}
 
-  	.menuItem
-  	{
-  		display: none;
-  	}
+        div.hamburger-nav
+        {
+            display: flex;
+            justify-content: space-between;
+        }
+        header nav.container{
+            width: 100%;
+            margin: 0;
+        }
 
-    div.hamburger-nav
-    {
-      display: flex;
-      justify-content: space-between;
-    }
+    	button.hamburger
+    	{
+    		margin: 0;
+    	}
 
-  	button.hamburger
-  	{
-  		margin: 0;
-  	}
-
-  	ul.primaryMenu
-  	{
-  		display: none;
-  	}
-
+    	ul.primaryMenu
+    	{
+    		display: none;
+    	}
 
 
-  	.menu-responsive
-  	{
-  		display: block;
-  	}
 
-  	.menu-responsive  a
-  	{
-  		text-decoration: none;
-  		color: white;
-  		font-size: 20px;
-  	}
+    	.menu-responsive
+    	{
+            display: block;
+            margin-right: 40px;
+    	}
 
-  	.menu-responsive:hover a
-  	{
-  		opacity: 0.65;
-  		transition: 0.2s;
-  	}
+    	.menu-responsive  a
+    	{
+    		text-decoration: none;
+    		color: white;
+    		font-size: 20px;
+    	}
 
-  	.menu-responsive a img
-  	{
-  		height: 20px;
-  	}
+    	.menu-responsive:hover a
+    	{
+    		opacity: 0.65;
+    		transition: 0.2s;
+    	}
 
-  	.menu-responsive #logo-responsive
-  	{
-      padding-left: 50px;
-  		font-size: 20px;
-  		font-family: "SF Pro Text Bold";
-  	}
+    	.menu-responsive a img
+    	{
+    		height: 16px;
+    	}
 
-    /*Menu responsive */
+    	.menu-responsive #logo-responsive
+    	{
+        padding-left: 50px;
+    		font-size: 20px;
+    		font-family: "SF Pro Text Bold";
+    	}
 
-    .primaryMenu-responsive {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      list-style: none;
-      width: 100%;
-      height: 180px;
-      margin: 0;
-      padding: 0;
-    }
+      /*Menu responsive */
 
-    li.menuItem-responsive{
-      padding: 5px;
+      .primaryMenu-responsive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        width: 100vw;
+        height: 180px;
+        margin: 0;
+        padding: 0;
+      }
 
-    }
+      li.menuItem-responsive{
+        padding: 5px;
 
-    .menuItem-responsive {
-      flex-direction: row;
-      position: relative;
-    }
+      }
 
-    .menuItem-responsive a {
-      text-decoration: none;
-      color: white;
-      font-size: 14px;
-    }
+      .menuItem-responsive {
+        flex-direction: row;
+        position: relative;
+      }
 
-    .menuItem-responsive:hover a {
-      opacity: 0.65;
-      transition: 0.2s;
-    }
+      .menuItem-responsive a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+      }
 
-    .menuItem-responsive a img {
-      height: 14px;
-    }
+      .menuItem-responsive:hover a {
+        opacity: 0.65;
+        transition: 0.2s;
+      }
 
-    #logo {
-      font-size: 16px;
-      font-family: "SF Pro Text Bold";
-    }
+      .menuItem-responsive a img {
+        height: 14px;
+      }
 
-    a#logo-responsive{
-      display: block;
-      margin: 18px 0;
-    }
+      #logo {
+        font-size: 16px;
+        font-family: "SF Pro Text Bold";
+      }
+
+      a#logo-responsive{
+        display: block;
+        margin: 18px 0;
+      }
 
 
 
@@ -595,115 +602,123 @@ footer a.subtitle-footer {
   		margin: 0 auto;
   	}
 
-    /*Menu normal avec responsive */
 
-  	.primaryMenu
-  	{
-  		display: flex;
-  		justify-content: space-between;
-  		align-items: center;
-  		list-style: none;
-  		width: 100%;
-  		height: 48px;
-  		margin: 0;
-  		padding: 0;
-  	}
+      /*Menu normal avec responsive */
 
-  	.menuItem
-  	{
-  		display: none;
-  	}
+    	.primaryMenu
+    	{
+    		display: flex;
+    		justify-content: space-between;
+    		align-items: center;
+    		list-style: none;
+    		width: 100vw;
+    		height: 48px;
+    		margin: 0;
+    		padding: 0;
+    	}
+        header nav{
+            width: 100vw
+        }
+    	.menuItem
+    	{
+            display: none;
+    	}
 
-    div.hamburger-nav
-    {
-      display: flex;
-      justify-content: space-between;
-    }
+        div.hamburger-nav
+        {
+            display: flex;
+            justify-content: space-between;
+        }
+        header nav.container{
+            width: 100%;
+            margin: 0;
+        }
 
-  	button.hamburger
-  	{
-  		margin: 0;
-  	}
+    	button.hamburger
+    	{
+    		margin: 0;
+    	}
 
-  	ul.primaryMenu
-  	{
-  		display: none;
-  	}
+    	ul.primaryMenu
+    	{
+    		display: none;
+    	}
 
 
 
-  	.menu-responsive
-  	{
-  		display: block;
-  	}
+    	.menu-responsive
+    	{
+            display: block;
+            margin-right: 40px;
+    	}
 
-  	.menu-responsive  a
-  	{
-  		text-decoration: none;
-  		color: white;
-  		font-size: 20px;
-  	}
+    	.menu-responsive  a
+    	{
+    		text-decoration: none;
+    		color: white;
+    		font-size: 20px;
+    	}
 
-  	.menu-responsive:hover a
-  	{
-  		opacity: 0.65;
-  		transition: 0.2s;
-  	}
+    	.menu-responsive:hover a
+    	{
+    		opacity: 0.65;
+    		transition: 0.2s;
+    	}
 
-  	.menu-responsive a img
-  	{
-  		height: 20px;
-  	}
+    	.menu-responsive a img
+    	{
+    		height: 16px;
+    	}
 
-  	.menu-responsive #logo-responsive
-  	{
-      padding-left: 50px;
-  		font-size: 20px;
-  		font-family: "SF Pro Text Bold";
-  	}
+    	.menu-responsive #logo-responsive
+    	{
+        padding-left: 50px;
+    		font-size: 20px;
+    		font-family: "SF Pro Text Bold";
+    	}
 
-    /*Menu responsive */
+      /*Menu responsive */
 
-    .primaryMenu-responsive {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      list-style: none;
-      width: 100%;
-      height: 180px;
-      margin: 0;
-      padding: 0;
-    }
+      .primaryMenu-responsive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        width: 100vw;
+        height: 180px;
+        margin: 0;
+        padding: 0;
+      }
 
-    li.menuItem-responsive{
-      padding: 5px;
+      li.menuItem-responsive{
+        padding: 5px;
 
-    }
+      }
 
-    .menuItem-responsive {
-      flex-direction: row;
-      position: relative;
-    }
+      .menuItem-responsive {
+        flex-direction: row;
+        position: relative;
+      }
 
-    .menuItem-responsive a {
-      text-decoration: none;
-      color: white;
-      font-size: 14px;
-    }
+      .menuItem-responsive a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+      }
 
-    .menuItem-responsive:hover a {
-      opacity: 0.65;
-      transition: 0.2s;
-    }
+      .menuItem-responsive:hover a {
+        opacity: 0.65;
+        transition: 0.2s;
+      }
 
-    .menuItem-responsive a img {
-      height: 14px;
-    }
+      .menuItem-responsive a img {
+        height: 14px;
+      }
 
-    #logo {
-      font-size: 16px;
-      font-family: "SF Pro Text Bold";
-    }
+      #logo {
+        font-size: 16px;
+        font-family: "SF Pro Text Bold";
+      }
 
       a#logo-responsive{
         display: block;
