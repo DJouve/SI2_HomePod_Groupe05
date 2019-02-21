@@ -149,6 +149,11 @@ div.hamburger-nav{
 
 /* Main */
 
+.background-black{
+  background-color: black;
+  color: white;
+}
+
 main{
   width: 100vw;
   overflow: hidden;
@@ -161,7 +166,7 @@ main{
 }
 /* Images du main */
  #img1{
-   z-index: -5;
+   z-index: 4;
    width: 640px;
    height: 800px;
    /*top: -185px;
@@ -169,14 +174,14 @@ main{
    transform: translateX(-250px) translateY(-200px);
  }
  #img2{
-   z-index: -4;
+   z-index: 5;
   width: 450px;
   height: 450px;
   top: 120px;
   left: 60px;
  }
  #img3{
-   z-index: -5;
+   z-index: 4;
    width: 640px;
    height: 800px;
    top: 0;
@@ -184,7 +189,7 @@ main{
    transform: translateX(270px) translateY(200px);
  }
  #img4{
-   z-index: -4;
+   z-index: 5;
    width: 500px;
    height: 500px;
    top: 0;
@@ -201,7 +206,6 @@ main{
   margin-bottom: 100px;
 }
 .h1 h1{
-  color: grey;
   font-size: 55px;
 }
 .h2{
@@ -253,7 +257,8 @@ main div.container p{
 
 .ondes{
   width: 600px;
-  margin: 0px 170px;
+  margin-left: 50%;
+  transform:translateX(-50%);
   height: 400px;
 }
 
@@ -271,15 +276,16 @@ main div.container p{
 }
 #music{
   height: 500px;
+  margin-left: 50%;
+  transform:translateX(-50%);
 }
 
 #space{
   margin-bottom: -20px;
 }
 
-.main-music img#logo{
+.main-music img#logo-itunes{
   height: 80px;
-  weight: 80px;
 }
 
 h2{
@@ -858,3 +864,4 @@ footer a.subtitle-footer {
   		font-size: 12px;
   	}
   }
+}
