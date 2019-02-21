@@ -289,7 +289,7 @@ main div.container p{
   height: 80px;
 }
 
-h2{
+h2.white{
   font-size: 40px;
   color: white;
 }
@@ -434,8 +434,8 @@ img {
 
 .icon{
   display: flex;
-  margin-left: 630px;
-  margin-right: 630px;
+  margin: 0 auto;
+  width: 500px;
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
