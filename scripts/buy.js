@@ -1,3 +1,18 @@
+/* Reponsive Menu */
+
+const hamb = document.querySelector('.hamburger')
+const menu = document.querySelector('.responsive-menu-none')
+
+hamb.addEventListener(
+  'click',
+  function(){
+      menu.classList.toggle('responsive-menu-none')
+      menu.classList.toggle('responsive-menu-open')
+  }
+)
+
+
+
 //buy button
 
 const $appleCare = document.querySelector('.infos-care')
@@ -92,4 +107,3 @@ for(let k = 0; k<= colorItem.length; k++){
         colorItem[k].classList.add('selector-choice')
     })
 }
-    

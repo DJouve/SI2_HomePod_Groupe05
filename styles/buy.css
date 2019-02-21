@@ -106,6 +106,7 @@
       display: flex;
   }
 
+
   .homepod{
     background: white;
     height: 60px;
@@ -168,6 +169,12 @@
   }
 
 
+  /* Main */
+
+  main{
+    width: 100vw;
+    overflow: hidden;
+  }
 
 
   /* Hero */
@@ -552,9 +559,10 @@
   	/*Taille de la fenetre*/
   	.container
   	{
-  		width: 240px;
+  		width: 100%;
   		margin: 0 auto;
   	}
+
 
     /*Menu normal avec responsive */
 
@@ -674,6 +682,19 @@
 
 
   	/* Main */
+
+
+      .hero {
+          display: flex;
+          width: 80vw;
+          flex-wrap: wrap;
+          flex-direction: row;
+          align-items: center;
+      }
+
+
+
+
   	/* Footer*/
   	footer .footer-container-1 .col-1
   	{
@@ -724,8 +745,8 @@
   	/*Taille de la fenetre*/
   	.container
   	{
-  		width: 440px;
-  		margin: 0 auto;
+  		width: 100%;
+  		margin: 0;
   	}
 
     /*Menu normal avec responsive */
@@ -843,7 +864,28 @@
         margin: 18px 0;
       }
 
+
   	/* Main */
+
+
+      .hero {
+          display: flex;
+          width: 80vw;
+          flex-wrap: wrap;
+          flex-direction: row;
+          align-items: center;
+      }
+
+      div.titleCaract{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 600px;
+
+      }
+
+
   	/* Footer*/
   	footer .footer-container-1 .col-1
   	{
@@ -895,7 +937,7 @@
   	/*Taille de la fenetre*/
   	.container
   	{
-  		width: 980px;
+  		width: 100%;
   		margin: 0 auto;
   	}
 
@@ -991,4 +1033,3 @@
   		font-size: 12px;
   	}
   }
-}
