@@ -33,7 +33,12 @@ body {
 /* Menu */
 
 #header{
+    z-index: 10;
     background: linear-gradient(to right, #777dff,#497ce2, #37bdde, #f154ff, #f0357c);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;   
 }
 
 .primaryMenu {
@@ -47,6 +52,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 ul{
     padding: 0;
 }
@@ -128,6 +134,7 @@ div.hamburger-nav{
     height: 60px;
     border-bottom: 1px solid #999;
     position: relative;
+    margin-top: 48px;
 }
 
 .homepod a{
