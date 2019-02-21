@@ -195,22 +195,20 @@ main{
  /* Texte du main */
 .h1{
   text-align: center;
-  width: 47vw;
-  height: auto;
-  top: 0;
-  left: 0;
-  transform: translateX(530px) translateY(55px);
+  width:47vw; 
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 .h1 h1{
   color: grey;
-  font-size: 65px;
+  font-size: 55px;
 }
 .h2{
   text-align: center;
   width: 35vw;
-  height: auto;
-  margin-top: 220px;
-  margin-left: 450px;
+  margin: 0 auto;
+
   margin-bottom: 100px;
 }
 .h2 h2{
@@ -218,10 +216,10 @@ main{
   font-size: 30px;
 }
 main div.container{
-  
+
   text-align: center;
 }
-main div.container h3{
+main div.zone h3{
   width: 300px;
   margin: 0 auto;
   font-size: 30px;
@@ -231,10 +229,14 @@ main div.container h3{
 main div.container span{
   font-size: 35px;
 }
-
+div.zone h3+p{
+  margin-top: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
 main div.container p{
   z-index: 5;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 /*ondes*/
@@ -282,9 +284,7 @@ main div.container p{
 
 h2{
   font-size: 40px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#b2bec3), to(#636e72));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: linear-gradient(to right, #777dff,#497ce2, #37bdde, #f154ff, #f0357c);
 }
 
 a{
