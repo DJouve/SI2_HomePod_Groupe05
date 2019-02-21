@@ -195,7 +195,7 @@ main {
   width: 450px;
   height: 450px;
   top: 120px;
-  left: 60px;
+  left: -50px;
 }
 
 #img3 {
@@ -203,7 +203,7 @@ main {
   width: 640px;
   height: 800px;
   top: 0;
-  right: 0;
+  right: -120px;
   transform: translateX(270px) translateY(200px);
 }
 
@@ -212,7 +212,7 @@ main {
   width: 500px;
   height: 500px;
   top: 0;
-  right: 0;
+  right: -40px;
   transform: translateX(-15px) translateY(240px);
 }
 
@@ -721,6 +721,26 @@ footer a.subtitle-footer {
 
 
   /* Main */
+
+  .none{
+    display: none;
+  }
+
+  h1.responsive-h-1{
+    font-size: 40px;
+
+  }
+  h2.responsive-h-2{
+    font-size: 30px;
+
+  }
+
+  section.container{
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+
   /* Footer*/
   footer .footer-container-1 .col-1 {
     /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
@@ -887,6 +907,21 @@ footer a.subtitle-footer {
   }
 
   /* Main */
+
+  .none{
+    display: none;
+  }
+
+  h2.responsive-h-2 {
+    font-size: 20px;
+    color: white;
+    }
+
+    section.container{
+      width: 50%;
+      margin-bottom: 50px;
+    }
+
   /* Footer*/
   footer .footer-container-1 .col-1 {
     background-color: #f2f2f2;
