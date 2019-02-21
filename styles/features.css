@@ -420,7 +420,7 @@ footer a.subtitle-footer {
 	/*Taille de la fenetre*/
 	.container
 	{
-		width: 450px;
+		width: 100%;
 		margin: 0 auto;
 	}
 
@@ -643,7 +643,7 @@ footer a.subtitle-footer {
 	/*Taille de la fenetre*/
 	.container
 	{
-		width: 769px;
+		width: 100%;
 		margin: 0 auto;
 	}
 
@@ -651,7 +651,7 @@ footer a.subtitle-footer {
     header{
         width: 100vw;
     }
-    
+
     /* Main*/
     .homepod{
         width: 769;
