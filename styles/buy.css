@@ -367,10 +367,14 @@
 
 .titleCaract h2{
   font-size: 30px;
-  font-weight: bold;
+  font-family: "SF Pro Text Bold";
   letter-spacing: 1px;
   margin-top: 20px;
+}
 
+h3{
+  font-family: "SF Pro Text Bold";
+  margin-bottom: 15px;
 }
 
 .titleCaract p{
@@ -380,8 +384,8 @@
 }
 
 .titleCaract img{
-
-  margin: 30px auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
   width: 760px;
 }
 
@@ -389,16 +393,14 @@
   text-align: center;
   font-size: 30px;
   letter-spacing: 1px;
-  margin-top: 35px;
-  font-weight: bold;
-  padding-bottom: 12px;
-  padding-top: 42px;
+  margin-top: -50px;
+  margin-bottom: 30px;
   font-size: 40px;
   line-height: 1.05;
   display: flex;
   flex-direction: row;
-
 }
+
 
 .image-caract img{
   display: block;
@@ -410,7 +412,7 @@
 .block1-1,.block1-2 {
     display: block;
     margin-top: 20px;
-    width: 400px;
+    width: 100%;
     flex-direction: row;
     padding: 0px;
     border-radius: 4px;
@@ -420,16 +422,22 @@
   display: flex;
   flex-direction: row;
   border-top: 1px solid #888;
+  margin: 10px;
 }
 
 .block-principal{
-  font-size: 18px;
+  font-size: 16px;
+  margin-top: 70px;
+  margin-left: 75px;
 }
 
+.block-principal li{
+  margin-bottom: 5px;
+}
 .block2-1,.block2-2 {
   display: block;
   margin-top: 20px;
-  width: 400px;
+  width: 100%;
   flex-direction: row;
   padding: 0px;
   border-radius: 4px;
@@ -439,12 +447,13 @@
   display: flex;
   flex-direction: row;
   border-top: 1px solid #888;
+  margin: 10px;
   }
 
 .block3-1,.block3-2 {
     display: block;
     margin-top: 20px;
-    width: 400px;
+    width: 100%;
     flex-direction: row;
     padding: 0px;
     border-radius: 4px;
@@ -454,7 +463,8 @@
     display: flex;
     flex-direction: row;
     border-top: 1px solid #888;
-    }
+    margin: 10px;
+  }
 
 
 
@@ -1081,3 +1091,4 @@
   		font-size: 12px;
   	}
   }
+}
