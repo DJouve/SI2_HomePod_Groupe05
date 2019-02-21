@@ -365,6 +365,7 @@ img {
   font-size: 50px;
   background: linear-gradient(to right, red, blue);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -446,6 +447,7 @@ img {
   font-size: 50px;
   background: linear-gradient(to right, red, blue);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
