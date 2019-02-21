@@ -27,9 +27,6 @@
 
   
 
- div.hero{
-   margin: 20px;
- }
 
 
   #header{
@@ -109,7 +106,23 @@
       display: flex;
   }
 
+  .homepod{
+    background: white;
+    height: 60px;
+    border-bottom: 1px solid #999;
+    position: relative;
+    margin-top: 48px;
+  }
 
+  .homepod a{
+    position: absolute;
+    bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: grey;
+    border: 0;
+    text-decoration: none;
+}
   /* Button acheter */
 
   .buy-button {
