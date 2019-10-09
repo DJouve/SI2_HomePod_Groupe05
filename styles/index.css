@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "SF Pro Text";
   font-weight: normal;
+  font-family: "SF Pro Text";
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
 @font-face {
-  font-family: "SF Pro Text Bold";
   font-weight: bold;
+  font-family: "SF Pro Text Bold";
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
 }
 
@@ -17,53 +17,53 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
   width: 100%;
-  overflow-x: hidden;
-  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 16px;
   color: #333;
+  font-size: 16px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 
 .container {
-  width: 940px;
   margin: 0 auto;
+  width: 940px;
 }
 
 
 
 #header {
-  z-index: 10;
-  background: linear-gradient(to right, #777dff, #497ce2, #37bdde, #f154ff, #f0357c);
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
   width: 100vw;
+  background: linear-gradient(to right, #777dff, #497ce2, #37bdde, #f154ff, #f0357c);
 }
 
 /* Menu Normal */
 
 .primaryMenu {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  list-style: none;
-  width: 100%;
-  height: 48px;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 48px;
+  list-style: none;
 }
 
 .menuItem {
-  flex-direction: row;
   position: relative;
+  flex-direction: row;
 }
 
 .menuItem a {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
   font-size: 14px;
 }
 
@@ -116,18 +116,18 @@ div.responsive-menu-none {
 /* Button acheter */
 
 .buy-button {
-  background-color: #0070c9;
-  background: linear-gradient(#42a1ec, #0070c9);
-  border-color: #07c;
   padding: 5px 10px;
+  border-color: #07c;
   border-radius: 4px;
+  background: linear-gradient(#42a1ec, #0070c9);
+  background-color: #0070c9;
   text-align: center;
 }
 
 .buy-button:hover {
-  background-color: #147bcd;
-  background: linear-gradient(#51a9ee, #147bcd);
   border-color: #1482d0;
+  background: linear-gradient(#51a9ee, #147bcd);
+  background-color: #147bcd;
   text-decoration: none;
 }
 
@@ -137,17 +137,17 @@ div.responsive-menu-none {
 /* Submenu */
 
 .subMenu {
-  padding: 0px;
-  margin: 0px;
-  display: none;
-  list-style: none;
   position: absolute;
+  display: none;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
 .subMenu a {
-  text-decoration: none;
-  color: #333;
   background: white;
+  color: #333;
+  text-decoration: none;
 }
 
 .menuItem:hover .subMenu {
@@ -157,10 +157,10 @@ div.responsive-menu-none {
 /* Main */
 
 .background-black {
-  background-color: black;
-  color: white;
   padding-top: 80px;
   padding-bottom: 100px;
+  background-color: black;
+  color: white;
 }
 
 .background-black .zone {
@@ -168,8 +168,8 @@ div.responsive-menu-none {
 }
 
 main {
-  width: 100vw;
   overflow: hidden;
+  width: 100vw;
 }
 
 .relative {
@@ -191,38 +191,38 @@ main {
 }
 
 #img2 {
+  top: 120px;
+  left: -50px;
   z-index: 5;
   width: 450px;
   height: 450px;
-  top: 120px;
-  left: -50px;
 }
 
 #img3 {
+  top: 0;
+  right: -120px;
   z-index: 4;
   width: 640px;
   height: 800px;
-  top: 0;
-  right: -120px;
   transform: translateX(270px) translateY(200px);
 }
 
 #img4 {
+  top: 0;
+  right: -40px;
   z-index: 5;
   width: 500px;
   height: 500px;
-  top: 0;
-  right: -40px;
   transform: translateX(-15px) translateY(240px);
 }
 
 /* Texte du main */
 .h1 {
-  text-align: center;
-  width: 47vw;
   margin: 0 auto;
   margin-top: 80px;
   margin-bottom: 100px;
+  width: 47vw;
+  text-align: center;
 }
 
 .h1 h1 {
@@ -230,11 +230,10 @@ main {
 }
 
 .h2 {
-  text-align: center;
-  width: 35vw;
   margin: 0 auto;
-
   margin-bottom: 100px;
+  width: 35vw;
+  text-align: center;
 }
 
 .h2 h2 {
@@ -243,16 +242,15 @@ main {
 }
 
 main div.container {
-
   text-align: center;
 }
 
 main div.zone h3 {
-  width: 300px;
   margin: 0 auto;
-  font-size: 30px;
-  font-weight: bolder;
   padding: 0;
+  width: 300px;
+  font-weight: bolder;
+  font-size: 30px;
 }
 
 main div.container span {
@@ -260,9 +258,9 @@ main div.container span {
 }
 
 div.zone h3+p {
+  margin: 0 auto;
   margin-top: 20px;
   width: 50%;
-  margin: 0 auto;
 }
 
 main div.container p {
@@ -272,39 +270,39 @@ main div.container p {
 
 /*ondes*/
 .container {
-  width: 940px;
   margin: 0 auto;
+  width: 940px;
 }
 
 .main-center {
-  width: 600px;
   margin: 0 auto;
+  width: 600px;
   text-align: center;
 }
 
 .ondes {
-  width: 600px;
   margin-left: 50%;
-  transform: translateX(-50%);
+  width: 600px;
   height: 400px;
+  transform: translateX(-50%);
 }
 
 .main-center img {
-  height: 100px;
   margin-bottom: -10px;
+  height: 100px;
 }
 
 /*Music*/
 
 .main-music {
-  width: 600px;
   margin: 60px auto;
+  width: 600px;
   text-align: center;
 }
 
 #music {
-  height: 500px;
   margin-left: 50%;
+  height: 500px;
   transform: translateX(-50%);
 }
 
@@ -321,8 +319,8 @@ h2.size {
 }
 
 h2.white {
-  font-size: 40px;
   color: white;
+  font-size: 40px;
 }
 
 a {
@@ -330,9 +328,9 @@ a {
 }
 
 a:hover {
+  color: blue;
   font-size: 14px;
   cursor: pointer;
-  color: blue;
 }
 
 #lien {
@@ -362,24 +360,25 @@ img {
 }
 
 .siri h1 {
-  font-size: 50px;
   background: linear-gradient(to right, red, blue);
   -webkit-background-clip: text;
   background-clip: text;
+  font-size: 50px;
+
   -webkit-text-fill-color: transparent;
 }
 
 .siri-questions p {
-  color: #000069;
-  font-size: 25px;
   margin-top: -10px;
+  color: #000069;
   font-weight: bold;
+  font-size: 25px;
 }
 
 
 .help-siri {
-  text-align: center;
   margin-top: 65px;
+  text-align: center;
 }
 
 .help-siri p {
@@ -387,8 +386,8 @@ img {
 }
 
 .help-siri h1 {
-  font-size: 65px;
   color: #4F4F4F;
+  font-size: 65px;
 }
 
 .smart1 h3 {
@@ -397,10 +396,10 @@ img {
 }
 
 .smart1 p {
-  text-align: center;
-  font-size: 19px;
   margin-top: 0px;
+  text-align: center;
   font-weight: bold;
+  font-size: 19px;
 }
 
 .smart1 {
@@ -444,18 +443,19 @@ img {
 }
 
 .siri2 h1 {
-  font-size: 50px;
   background: linear-gradient(to right, red, blue);
   -webkit-background-clip: text;
   background-clip: text;
+  font-size: 50px;
+
   -webkit-text-fill-color: transparent;
 }
 
 .siri-questions2 p {
-  color: #000069;
-  font-size: 25px;
   margin-top: -10px;
+  color: #000069;
   font-weight: bold;
+  font-size: 25px;
 }
 
 .space-padding {
@@ -466,17 +466,17 @@ img {
 
 .icon {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 0 auto;
   width: 500px;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
 }
 
 figure {
-  text-align: center;
   margin: 5px;
   margin-right: 40px;
+  text-align: center;
 }
 
 .radius {
@@ -484,15 +484,15 @@ figure {
 }
 
 .callout {
-  font-size: 16px;
-  font-weight: 400;
-  border-radius: 4px;
-  border: 1px solid #e3e3e3;
-  background-color: #E9F6D0;
+  position: relative;
   margin: 20px auto;
   padding: 70px;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  background-color: #E9F6D0;
   color: #333;
-  position: relative;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .callout-techspecs-environment-logo {
@@ -500,24 +500,24 @@ figure {
 }
 
 .image-icon-environment {
-  width: 29px;
-  height: 36px;
-  background-size: 29px 36px;
-  background-repeat: no-repeat;
-  background-image: url(../images/icon_environment_large_2x.png);
   top: 20px;
   right: 20px;
+  width: 29px;
+  height: 36px;
+  background-image: url(../images/icon_environment_large_2x.png);
+  background-size: 29px 36px;
+  background-repeat: no-repeat;
 }
 
 /*Footer*/
 
 #footer {
+  padding: 5px 0;
+  width: 100%;
+  height: auto;
   /* Déclaration du css footer */
   background-color: #f2f2f2;
   font-size: 11px;
-  height: auto;
-  width: 100%;
-  padding: 5px 0;
 
 
 }
@@ -529,13 +529,13 @@ footer .footer-container-1 {
 }
 
 footer .footer-container-1 .col-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
   /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
   background-color: #f2f2f2;
   font-size: 11px;
-  height: auto;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
 }
 
 
@@ -548,8 +548,8 @@ footer .footer-container-1 .col-1 {
 
 
 .col-1 li {
-  list-style: none;
   padding: 2px 0;
+  list-style: none;
   text-align: center;
 }
 
@@ -558,14 +558,14 @@ footer .footer-container-1 .col-1 {
 /* Les titres boutons du footers */
 footer p.title-footer {
   display: block;
-  text-align: left;
-  line-height: 1.5;
-  cursor: pointer;
+  color: #333;
   list-style: none;
+  text-align: left;
+  text-decoration: none;
   font-weight: bold;
   font-size: 11px;
-  text-decoration: none;
-  color: #333;
+  line-height: 1.5;
+  cursor: pointer;
 
 
 }
@@ -573,13 +573,13 @@ footer p.title-footer {
 /* Les Sous-titres boutons du footers */
 footer a.subtitle-footer {
   display: block;
-  text-align: left;
-  line-height: 1.7;
-  font-size: 10px;
-  cursor: pointer;
-  list-style: none;
-  text-decoration: none;
   color: #333;
+  list-style: none;
+  text-align: left;
+  text-decoration: none;
+  font-size: 10px;
+  line-height: 1.7;
+  cursor: pointer;
 
 }
 
@@ -598,8 +598,8 @@ footer a.subtitle-footer {
 
   /*Taille de la fenetre*/
   .container {
-    width: 100%;
     margin: 0 auto;
+    width: 100%;
   }
 
 
@@ -607,13 +607,13 @@ footer a.subtitle-footer {
 
   .primaryMenu {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    list-style: none;
-    width: 100vw;
-    height: 48px;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
+    width: 100vw;
+    height: 48px;
+    list-style: none;
   }
 
   header nav {
@@ -630,8 +630,8 @@ footer a.subtitle-footer {
   }
 
   header nav.container {
-    width: 100%;
     margin: 0;
+    width: 100%;
   }
 
   button.hamburger {
@@ -650,8 +650,8 @@ footer a.subtitle-footer {
   }
 
   .menu-responsive a {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
     font-size: 20px;
   }
 
@@ -674,13 +674,13 @@ footer a.subtitle-footer {
 
   .primaryMenu-responsive {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    list-style: none;
-    width: 100vw;
-    height: 180px;
+    flex-direction: column;
     margin: 0;
     padding: 0;
+    width: 100vw;
+    height: 180px;
+    list-style: none;
   }
 
   li.menuItem-responsive {
@@ -689,13 +689,13 @@ footer a.subtitle-footer {
   }
 
   .menuItem-responsive {
-    flex-direction: row;
     position: relative;
+    flex-direction: row;
   }
 
   .menuItem-responsive a {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
     font-size: 14px;
   }
 
@@ -736,47 +736,47 @@ footer a.subtitle-footer {
   }
 
   section.container{
-    width: 50%;
     margin-bottom: 50px;
+    width: 50%;
   }
 
 
   /* Footer*/
   footer .footer-container-1 .col-1 {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
     /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
     background-color: #f2f2f2;
     font-size: 11px;
-    height: auto;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
   }
 
   footer p.title-footer {
-    padding-top: 5px;
     display: block;
-    text-align: center;
+    padding-top: 5px;
+    color: #111;
     list-style: none;
+    text-align: center;
+    text-decoration: none;
     font-weight: bold;
     font-size: 15px;
-    text-decoration: none;
-    color: #111;
   }
 
   footer a.subtitle-footer {
     display: block;
+    color: #555;
+    list-style: none;
     text-align: center;
+    text-decoration: none;
     line-height: 1.7;
     cursor: pointer;
-    list-style: none;
-    text-decoration: none;
-    color: #555;
   }
 
   .col-2-1 p {
-    padding-top: 40px;
     padding: 0;
+    padding-top: 40px;
   }
 }
 
@@ -786,8 +786,8 @@ footer a.subtitle-footer {
 
   /*Taille de la fenetre*/
   .container {
-    width: 100%;
     margin: 0 auto;
+    width: 100%;
   }
 
 
@@ -795,13 +795,13 @@ footer a.subtitle-footer {
 
   .primaryMenu {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    list-style: none;
-    width: 100vw;
-    height: 48px;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
+    width: 100vw;
+    height: 48px;
+    list-style: none;
   }
 
   header nav {
@@ -818,8 +818,8 @@ footer a.subtitle-footer {
   }
 
   header nav.container {
-    width: 100%;
     margin: 0;
+    width: 100%;
   }
 
   button.hamburger {
@@ -838,8 +838,8 @@ footer a.subtitle-footer {
   }
 
   .menu-responsive a {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
     font-size: 20px;
   }
 
@@ -862,13 +862,13 @@ footer a.subtitle-footer {
 
   .primaryMenu-responsive {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    list-style: none;
-    width: 100vw;
-    height: 180px;
+    flex-direction: column;
     margin: 0;
     padding: 0;
+    width: 100vw;
+    height: 180px;
+    list-style: none;
   }
 
   li.menuItem-responsive {
@@ -877,13 +877,13 @@ footer a.subtitle-footer {
   }
 
   .menuItem-responsive {
-    flex-direction: row;
     position: relative;
+    flex-direction: row;
   }
 
   .menuItem-responsive a {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
     font-size: 14px;
   }
 
@@ -913,23 +913,23 @@ footer a.subtitle-footer {
   }
 
   h2.responsive-h-2 {
-    font-size: 20px;
     color: white;
+    font-size: 20px;
     }
 
     section.container{
-      width: 50%;
       margin-bottom: 50px;
+      width: 50%;
     }
 
   /* Footer*/
   footer .footer-container-1 .col-1 {
-    background-color: #f2f2f2;
-    font-size: 11px;
-    height: auto;
-    width: 100%;
     display: flex;
     flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    font-size: 11px;
   }
 
   div.col-1 div {
@@ -937,24 +937,24 @@ footer a.subtitle-footer {
   }
 
   footer p.title-footer {
-    padding-top: 5px;
     display: block;
-    text-align: center;
+    padding-top: 5px;
+    color: #111;
     list-style: none;
+    text-align: center;
+    text-decoration: none;
     font-weight: bold;
     font-size: 15px;
-    text-decoration: none;
-    color: #111;
   }
 
   footer a.subtitle-footer {
     display: block;
+    color: #555;
+    list-style: none;
     text-align: center;
+    text-decoration: none;
     line-height: 1.7;
     cursor: pointer;
-    list-style: none;
-    text-decoration: none;
-    color: #555;
   }
 
   .col-2-1 p {
@@ -968,42 +968,42 @@ footer a.subtitle-footer {
 
     /*Taille de la fenetre*/
     .container {
-      width: 100%;
       margin: 0 auto;
+      width: 100%;
     }
 
     /* Menu */
     /* Main*/
     /* Footer*/
     footer .footer-container-1 .col-1 {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: auto;
       /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
       background-color: #f2f2f2;
       font-size: 11px;
-      height: auto;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
     }
 
     footer p.title-footer {
-      padding-top: 5px;
       display: block;
-      text-align: center;
+      padding-top: 5px;
+      color: #111;
       list-style: none;
+      text-align: center;
+      text-decoration: none;
       font-weight: bold;
       font-size: 15px;
-      text-decoration: none;
-      color: #111;
     }
 
     footer a.subtitle-footer {
       display: block;
+      color: #555;
+      list-style: none;
       text-align: center;
+      text-decoration: none;
       line-height: 1.7;
       cursor: pointer;
-      list-style: none;
-      text-decoration: none;
-      color: #555;
     }
 
     .col-2-1 p {
@@ -1020,34 +1020,34 @@ footer a.subtitle-footer {
     /* Main*/
     /* Footer*/
     footer .footer-container-1 .col-1 {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: auto;
       /* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
       background-color: #f2f2f2;
       font-size: 11px;
-      height: auto;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
     }
 
     footer p.title-footer {
-      padding-top: 5px;
       display: block;
-      text-align: center;
+      padding-top: 5px;
+      color: #111;
       list-style: none;
+      text-align: center;
+      text-decoration: none;
       font-weight: bold;
       font-size: 15px;
-      text-decoration: none;
-      color: #111;
     }
 
     footer a.subtitle-footer {
       display: block;
+      color: #555;
+      list-style: none;
       text-align: center;
+      text-decoration: none;
       line-height: 1.7;
       cursor: pointer;
-      list-style: none;
-      text-decoration: none;
-      color: #555;
     }
 
     .col-2-1 p {
@@ -1055,4 +1055,11 @@ footer a.subtitle-footer {
       font-size: 12px;
     }
   }
+}
+
+.pedagogicalMention{
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
 }

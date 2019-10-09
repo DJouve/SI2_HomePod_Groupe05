@@ -1,58 +1,58 @@
 @font-face {
-	font-family: "SF Pro Text";
 	font-weight: normal;
+	font-family: "SF Pro Text";
 	src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
 @font-face {
-	font-family: "SF Pro Text Bold";
 	font-weight: bold;
+	font-family: "SF Pro Text Bold";
 	src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
 }
 
 body {
 	margin: 0;
 	padding: 0;
-	font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-	font-size: 16px;
 	color: #333;
+	font-size: 16px;
+	font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .container {
-	width: 940px;
-	margin: 0 auto;
 	overflow: hidden;
+	margin: 0 auto;
+	width: 940px;
 }
 
 #header {
-	z-index: 10;
-	background: linear-gradient(to right, #777dff, #497ce2, #37bdde, #f154ff, #f0357c);
 	position: fixed;
 	top: 0;
 	left: 0;
+	z-index: 10;
 	width: 100vw;
+	background: linear-gradient(to right, #777dff, #497ce2, #37bdde, #f154ff, #f0357c);
 }
 
 /* Menu Normal */
 .primaryMenu {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	list-style: none;
-	width: 100%;
-	height: 48px;
+	justify-content: space-between;
 	margin: 0;
 	padding: 0;
+	width: 100%;
+	height: 48px;
+	list-style: none;
 }
 
 .menuItem {
-	flex-direction: row;
 	position: relative;
+	flex-direction: row;
 }
 
 .menuItem a {
-	text-decoration: none;
 	color: white;
+	text-decoration: none;
 	font-size: 14px;
 }
 
@@ -99,55 +99,55 @@ div.responsive-menu-none {
 }
 
 .homepod {
-	background: white;
-	height: 60px;
-	border-bottom: 1px solid #999;
 	position: relative;
 	margin-top: 48px;
+	height: 60px;
+	border-bottom: 1px solid #999;
+	background: white;
 }
 
 .homepod a {
 	position: absolute;
 	bottom: 10px;
-	font-size: 30px;
-	font-weight: bold;
-	color: grey;
 	border: 0;
+	color: grey;
 	text-decoration: none;
+	font-weight: bold;
+	font-size: 30px;
 }
 
 /* Button acheter */
 .buy-button {
-	background-color: #0070c9;
-	background: linear-gradient(#42a1ec, #0070c9);
-	border-color: #07c;
 	padding: 5px 10px;
+	border-color: #07c;
 	border-radius: 4px;
+	background: linear-gradient(#42a1ec, #0070c9);
+	background-color: #0070c9;
+	color: white;
 	text-align: center;
 	text-decoration: none;
-	color: white;
 }
 
 .buy-button:hover {
-	background-color: #147bcd;
-	background: linear-gradient(#51a9ee, #147bcd);
 	border-color: #1482d0;
+	background: linear-gradient(#51a9ee, #147bcd);
+	background-color: #147bcd;
 	text-decoration: none;
 }
 
 /* Submenu */
 .subMenu {
-	padding: 0px;
-	margin: 0px;
-	display: none;
-	list-style: none;
 	position: absolute;
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
 }
 
 .subMenu a {
-	text-decoration: none;
-	color: #333;
 	background: white;
+	color: #333;
+	text-decoration: none;
 }
 
 .menuItem:hover .subMenu {
@@ -156,31 +156,32 @@ div.responsive-menu-none {
 
 /* Main */
 main {
-	width: 100vw;
 	overflow: hidden;
+	width: 100vw;
 }
 
 /* Hero */
 .hero {
 	display: flex;
-	width: 80vw;
-	flex-direction: row;
 	align-items: center;
-	height: 70vh;
+	flex-direction: row;
 	margin-top: 50px;
+	width: 80vw;
+	height: 70vh;
 }
 
 .slider {
-	height: 480px;
-	width: 420px;
 	position: relative;
 	overflow: hidden;
+	width: 420px;
+	height: 480px;
 }
 
 .sliderContainer {
 	position: absolute;
 	display: flex;
 	transition: ease-in .5s all;
+
 	will-change: left;
 }
 
@@ -191,8 +192,8 @@ main {
 .dots {
 	position: absolute;
 	bottom: 20px;
-	padding: 10px;
 	left: 50%;
+	padding: 10px;
 	transform: translateX(-50%);
 }
 
@@ -201,11 +202,11 @@ main {
 }
 
 .dots li a {
+	padding: 1px 10px;
+	border: 1px solid #888;
+	border-radius: 50%;
 	background-color: #f2f2f2;
 	text-decoration: none;
-	padding: 1px 10px;
-	border-radius: 50%;
-	border: 1px solid #888;
 }
 
 .dots li a.current {
@@ -215,8 +216,8 @@ main {
 .hero-informations {
 	display: flex;
 	flex-direction: column;
-	width: 310px;
 	margin-left: 20vh;
+	width: 310px;
 }
 
 .hero-informations .color-selec {
@@ -230,15 +231,15 @@ main {
 }
 
 .hero-informations .color-selec .color-item {
-	background: #f2f2f2;
-	border-radius: 4px;
 	display: flex;
-	flex-direction: column;
 	align-items: center;
-	height: 100%;
-	width: 150px;
-	padding: 10px;
+	flex-direction: column;
 	justify-content: center;
+	padding: 10px;
+	width: 150px;
+	height: 100%;
+	border-radius: 4px;
+	background: #f2f2f2;
 	cursor: pointer;
 }
 
@@ -255,8 +256,8 @@ main {
 }
 
 .hero-informations h1 {
-	font-size: 32px;
 	margin-bottom: 10px;
+	font-size: 32px;
 	font-family: "SF Pro Text Bold";
 }
 
@@ -275,47 +276,47 @@ main {
 }
 
 .infos-price .infos-price-full {
-	margin: 20px 0px;
-	font-family: "SF Pro Text Bold";
-	font-size: 22px;
 	position: relative;
+	margin: 20px 0px;
+	font-size: 22px;
+	font-family: "SF Pro Text Bold";
 }
 
 .separator {
+	margin: 15px 0;
 	width: 100%;
 	height: 1px;
 	background: #888;
-	margin: 15px 0;
 }
 
 .infos-price-tva-offer {
+	margin: 5px 0px;
 	color: #888;
 	font-size: 12px;
-	margin: 5px 0px;
 }
 
 .icon-apple::before {
-	content: "";
-	color: red;
 	margin-right: 5px;
+	color: red;
+	content: "";
 }
 
 .infos-care {
 	display: flex;
 	flex-direction: column;
-	font-size: 14px;
-	padding: 15px 20px;
 	margin-bottom: 10px;
-	cursor: pointer;
-	border-radius: 4px;
-	transition: 0.2s ease-in-out;
+	padding: 15px 20px;
 	border: 1px solid #0070c9;
+	border-radius: 4px;
+	font-size: 14px;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
 }
 
 .infos-care.enabled {
-	background-color: #0070c9;
-	background: linear-gradient(#42a1ec, #0070c9);
 	border: 1px solid #07c;
+	background: linear-gradient(#42a1ec, #0070c9);
+	background-color: #0070c9;
 	color: white;
 }
 
@@ -328,13 +329,13 @@ main {
 }
 
 .infos-care p:first-child {
-	font-family: "SF Pro Text Bold";
 	margin-bottom: 15px;
+	font-family: "SF Pro Text Bold";
 }
 
 .infos-care ul li {
-	text-align: left;
 	margin: 5px 0;
+	text-align: left;
 }
 
 .infos-care ul li:nth-child(2) {
@@ -342,32 +343,32 @@ main {
 }
 
 .infos-care .disclaimer {
-	color: #888;
 	margin: 15px 0;
+	color: #888;
 }
 
 /*OK*/
 .titleCaract {
-	text-align: center;
 	margin-top: 80px;
+	text-align: center;
 }
 
 .titleCaract h2 {
+	margin-top: 20px;
+	letter-spacing: 1px;
 	font-size: 30px;
 	font-family: "SF Pro Text Bold";
-	letter-spacing: 1px;
-	margin-top: 20px;
 }
 
 h3 {
-	font-family: "SF Pro Text Bold";
 	margin-bottom: 15px;
+	font-family: "SF Pro Text Bold";
 }
 
 .titleCaract p {
-	font-size: 20px;
 	margin-top: 20px;
 	letter-spacing: 0.5px;
+	font-size: 20px;
 }
 
 .titleCaract img {
@@ -377,15 +378,15 @@ h3 {
 }
 
 .text-caract {
-	text-align: center;
-	font-size: 30px;
-	letter-spacing: 1px;
-	margin-top: -50px;
-	margin-bottom: 30px;
-	font-size: 40px;
-	line-height: 1.05;
 	display: flex;
 	flex-direction: row;
+	margin-top: -50px;
+	margin-bottom: 30px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 30px;
+	font-size: 40px;
+	line-height: 1.05;
 }
 
 .image-caract img {
@@ -398,24 +399,24 @@ h3 {
 .block1-1,
 .block1-2 {
 	display: block;
-	margin-top: 20px;
-	width: 100%;
 	flex-direction: row;
+	margin-top: 20px;
 	padding: 0px;
+	width: 100%;
 	border-radius: 4px;
 }
 
 .block1 {
 	display: flex;
 	flex-direction: row;
-	border-top: 1px solid #888;
 	margin: 10px;
+	border-top: 1px solid #888;
 }
 
 .block-principal {
-	font-size: 16px;
 	margin-top: 70px;
 	margin-left: 75px;
+	font-size: 16px;
 }
 
 .block-principal li {
@@ -425,46 +426,46 @@ h3 {
 .block2-1,
 .block2-2 {
 	display: block;
-	margin-top: 20px;
-	width: 100%;
 	flex-direction: row;
+	margin-top: 20px;
 	padding: 0px;
+	width: 100%;
 	border-radius: 4px;
 }
 
 .block2 {
 	display: flex;
 	flex-direction: row;
-	border-top: 1px solid #888;
 	margin: 10px;
+	border-top: 1px solid #888;
 }
 
 .block3-1,
 .block3-2 {
 	display: block;
-	margin-top: 20px;
-	width: 100%;
 	flex-direction: row;
+	margin-top: 20px;
 	padding: 0px;
+	width: 100%;
 	border-radius: 4px;
 }
 
 .block3 {
 	display: flex;
 	flex-direction: row;
-	border-top: 1px solid #888;
 	margin: 10px;
+	border-top: 1px solid #888;
 }
 
 /*Footer*/
 #footer {
+	padding-right: 0;
+	padding-left: 0;
+	width: 100%;
+	height: auto;
 	/* Déclaration du css footer */
 	background-color: #f2f2f2;
 	font-size: 11px;
-	height: auto;
-	width: 100%;
-	padding-left: 0;
-	padding-right: 0;
 }
 
 footer .footer-container-1 {
@@ -473,13 +474,13 @@ footer .footer-container-1 {
 }
 
 footer .footer-container-1 .col-1 {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: auto;
 	/* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
 	background-color: #f2f2f2;
 	font-size: 11px;
-	height: auto;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
 }
 
 /* ul et li du footer */
@@ -490,34 +491,34 @@ ul {
 }
 
 ul li {
-	list-style: none;
 	padding: 2px 0;
+	list-style: none;
 	text-align: center;
 }
 
 /* Les titres boutons du footers */
 footer p.title-footer {
 	display: block;
-	text-align: left;
-	line-height: 1.5;
-	cursor: pointer;
+	color: #333;
 	list-style: none;
+	text-align: left;
+	text-decoration: none;
 	font-weight: bold;
 	font-size: 11px;
-	text-decoration: none;
-	color: #333;
+	line-height: 1.5;
+	cursor: pointer;
 }
 
 /* Les Sous-titres boutons du footers */
 footer a.subtitle-footer {
 	display: block;
-	text-align: left;
-	line-height: 1.7;
-	font-size: 10px;
-	cursor: pointer;
-	list-style: none;
-	text-decoration: none;
 	color: #333;
+	list-style: none;
+	text-align: left;
+	text-decoration: none;
+	font-size: 10px;
+	line-height: 1.7;
+	cursor: pointer;
 }
 
 .col-2-1 p {
@@ -537,13 +538,13 @@ footer a.subtitle-footer {
 	/*Menu normal avec responsive */
 	.primaryMenu {
 		display: flex;
-		justify-content: space-between;
 		align-items: center;
-		list-style: none;
-		width: 100vw;
-		height: 48px;
+		justify-content: space-between;
 		margin: 0;
 		padding: 0;
+		width: 100vw;
+		height: 48px;
+		list-style: none;
 	}
 
 	header nav {
@@ -560,8 +561,8 @@ footer a.subtitle-footer {
 	}
 
 	header nav.container {
-		width: 100%;
 		margin: 0;
+		width: 100%;
 	}
 
 	button.hamburger {
@@ -578,8 +579,8 @@ footer a.subtitle-footer {
 	}
 
 	.menu-responsive a {
-		text-decoration: none;
 		color: white;
+		text-decoration: none;
 		font-size: 20px;
 	}
 
@@ -601,13 +602,13 @@ footer a.subtitle-footer {
 	/*Menu responsive */
 	.primaryMenu-responsive {
 		display: flex;
-		flex-direction: column;
 		align-items: center;
-		list-style: none;
-		width: 100vw;
-		height: 180px;
+		flex-direction: column;
 		margin: 0;
 		padding: 0;
+		width: 100vw;
+		height: 180px;
+		list-style: none;
 	}
 
 	li.menuItem-responsive {
@@ -615,13 +616,13 @@ footer a.subtitle-footer {
 	}
 
 	.menuItem-responsive {
-		flex-direction: row;
 		position: relative;
+		flex-direction: row;
 	}
 
 	.menuItem-responsive a {
-		text-decoration: none;
 		color: white;
+		text-decoration: none;
 		font-size: 14px;
 	}
 
@@ -647,17 +648,17 @@ footer a.subtitle-footer {
 	/* Main */
 	.hero {
 		display: flex;
-		width: 90vw;
-		flex-wrap: wrap;
-		flex-direction: row;
 		align-items: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 90vw;
 	}
 
 	div.titleCaract {
 		display: flex;
-		flex-wrap: wrap;
-		flex-direction: row;
 		align-items: center;
+		flex-direction: row;
+		flex-wrap: wrap;
 		margin-top: 600px;
 	}
 
@@ -668,23 +669,23 @@ footer a.subtitle-footer {
 	.hero-informations {
 		display: flex;
 		flex-direction: column;
-		width: 310px;
 		margin-left: 8vh;
+		width: 310px;
 	}
 
 	.slider {
-		height: 480px;
-		width: 420px;
 		position: relative;
 		overflow: hidden;
+		width: 420px;
+		height: 480px;
 	}
 
 	.titleCaract h2 {
-		font-size: 30px;
-		font-weight: bold;
-		letter-spacing: 1px;
 		margin-top: 20px;
 		margin-left: 20px;
+		letter-spacing: 1px;
+		font-weight: bold;
+		font-size: 30px;
 	}
 
 	.text-caract {
@@ -692,60 +693,60 @@ footer a.subtitle-footer {
 	}
 
 	.text-caract .image-caract {
-		margin-left: auto;
 		margin-right: auto;
+		margin-left: auto;
 	}
 
 	.block-principal {
-		font-size: 16px;
 		margin-top: 70px;
-		margin-left: 30px;
 		margin-right: 30px;
+		margin-left: 30px;
+		font-size: 16px;
 	}
 
 	div.titleCaract {
 		display: flex;
-		flex-wrap: wrap;
-		flex-direction: row;
 		align-items: center;
+		flex-direction: row;
+		flex-wrap: wrap;
 	}
 
 	/* Footer*/
 	footer .footer-container-1 .col-1 {
+		display: flex;
+		align-items: stretch;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
 		/* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
 		background-color: #f2f2f2;
 		font-size: 11px;
-		height: auto;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: stretch;
 	}
 
 	footer p.title-footer {
-		padding-top: 5px;
 		display: block;
-		text-align: center;
+		padding-top: 5px;
+		color: #111;
 		list-style: none;
+		text-align: center;
+		text-decoration: none;
 		font-weight: bold;
 		font-size: 15px;
-		text-decoration: none;
-		color: #111;
 	}
 
 	footer a.subtitle-footer {
 		display: block;
+		color: #555;
+		list-style: none;
 		text-align: center;
+		text-decoration: none;
 		line-height: 1.7;
 		cursor: pointer;
-		list-style: none;
-		text-decoration: none;
-		color: #555;
 	}
 
 	.col-2-1 p {
-		padding-top: 40px;
 		padding: 0;
+		padding-top: 40px;
 	}
 
 }
@@ -761,13 +762,13 @@ footer a.subtitle-footer {
 	/*Menu normal avec responsive */
 	.primaryMenu {
 		display: flex;
-		justify-content: space-between;
 		align-items: center;
-		list-style: none;
-		width: 100vw;
-		height: 48px;
+		justify-content: space-between;
 		margin: 0;
 		padding: 0;
+		width: 100vw;
+		height: 48px;
+		list-style: none;
 	}
 
 	header nav {
@@ -784,8 +785,8 @@ footer a.subtitle-footer {
 	}
 
 	header nav.container {
-		width: 100%;
 		margin: 0;
+		width: 100%;
 	}
 
 	button.hamburger {
@@ -802,8 +803,8 @@ footer a.subtitle-footer {
 	}
 
 	.menu-responsive a {
-		text-decoration: none;
 		color: white;
+		text-decoration: none;
 		font-size: 20px;
 	}
 
@@ -825,13 +826,13 @@ footer a.subtitle-footer {
 	/*Menu responsive */
 	.primaryMenu-responsive {
 		display: flex;
-		flex-direction: column;
 		align-items: center;
-		list-style: none;
-		width: 100vw;
-		height: 180px;
+		flex-direction: column;
 		margin: 0;
 		padding: 0;
+		width: 100vw;
+		height: 180px;
+		list-style: none;
 	}
 
 	li.menuItem-responsive {
@@ -839,13 +840,13 @@ footer a.subtitle-footer {
 	}
 
 	.menuItem-responsive {
-		flex-direction: row;
 		position: relative;
+		flex-direction: row;
 	}
 
 	.menuItem-responsive a {
-		text-decoration: none;
 		color: white;
+		text-decoration: none;
 		font-size: 14px;
 	}
 
@@ -871,18 +872,18 @@ footer a.subtitle-footer {
 	/* Main */
 	div.hero {
 		display: flex;
-		width: 100vw;
-		flex-wrap: wrap;
-		flex-direction: row;
 		align-items: center;
+		flex-direction: row;
+		flex-wrap: wrap;
 		justify-content: center;
+		width: 100vw;
 	}
 
 	div.titleCaract {
 		display: flex;
-		flex-wrap: wrap;
-		flex-direction: row;
 		align-items: center;
+		flex-direction: row;
+		flex-wrap: wrap;
 		margin-top: 600px;
 	}
 
@@ -895,23 +896,23 @@ footer a.subtitle-footer {
 	}
 
 	.text-caract .image-caract {
-		margin-left: auto;
 		margin-right: auto;
+		margin-left: auto;
 	}
 
 	.hero-informations {
 		display: flex;
 		flex-direction: column;
-		width: 310px;
 		margin: 0 auto;
+		width: 310px;
 	}
 
 	.slider {
-		height: 480px;
-		width: 420px;
 		position: relative;
-		overflow: hidden;
 		left: 25%;
+		overflow: hidden;
+		width: 420px;
+		height: 480px;
 		transform: translateX(-25%);
 	}
 
@@ -920,11 +921,11 @@ footer a.subtitle-footer {
 	}
 
 	.titleCaract h2 {
-		font-size: 30px;
-		font-weight: bold;
-		letter-spacing: 1px;
 		margin-top: 20px;
 		margin-left: 20px;
+		letter-spacing: 1px;
+		font-weight: bold;
+		font-size: 30px;
 	}
 
 	.text-caract {
@@ -932,15 +933,15 @@ footer a.subtitle-footer {
 	}
 
 	.text-caract .image-caract {
-		margin-left: auto;
 		margin-right: auto;
+		margin-left: auto;
 	}
 
 	.block-principal {
-		font-size: 16px;
 		margin-top: 70px;
-		margin-left: 30px;
 		margin-right: 30px;
+		margin-left: 30px;
+		font-size: 16px;
 	}
 
 	div.titleCaract {
@@ -949,12 +950,12 @@ footer a.subtitle-footer {
 
 	/* Footer*/
 	footer .footer-container-1 .col-1 {
-		background-color: #f2f2f2;
-		font-size: 11px;
-		height: auto;
-		width: 100%;
 		display: flex;
 		flex-flow: row wrap;
+		width: 100%;
+		height: auto;
+		background-color: #f2f2f2;
+		font-size: 11px;
 	}
 
 	div.col-1 div {
@@ -962,24 +963,24 @@ footer a.subtitle-footer {
 	}
 
 	footer p.title-footer {
-		padding-top: 5px;
 		display: block;
-		text-align: center;
+		padding-top: 5px;
+		color: #111;
 		list-style: none;
+		text-align: center;
+		text-decoration: none;
 		font-weight: bold;
 		font-size: 15px;
-		text-decoration: none;
-		color: #111;
 	}
 
 	footer a.subtitle-footer {
 		display: block;
+		color: #555;
+		list-style: none;
 		text-align: center;
+		text-decoration: none;
 		line-height: 1.7;
 		cursor: pointer;
-		list-style: none;
-		text-decoration: none;
-		color: #555;
 	}
 
 	.col-2-1 p {
@@ -992,42 +993,42 @@ footer a.subtitle-footer {
 
 		/*Taille de la fenetre*/
 		.container {
-			width: 100%;
 			margin: 0 auto;
+			width: 100%;
 		}
 
 		/* Menu */
 		/* Main*/
 		/* Footer*/
 		footer .footer-container-1 .col-1 {
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			height: auto;
 			/* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
 			background-color: #f2f2f2;
 			font-size: 11px;
-			height: auto;
-			width: 100%;
-			display: flex;
-			justify-content: space-between;
 		}
 
 		footer p.title-footer {
-			padding-top: 5px;
 			display: block;
-			text-align: center;
+			padding-top: 5px;
+			color: #111;
 			list-style: none;
+			text-align: center;
+			text-decoration: none;
 			font-weight: bold;
 			font-size: 15px;
-			text-decoration: none;
-			color: #111;
 		}
 
 		footer a.subtitle-footer {
 			display: block;
+			color: #555;
+			list-style: none;
 			text-align: center;
+			text-decoration: none;
 			line-height: 1.7;
 			cursor: pointer;
-			list-style: none;
-			text-decoration: none;
-			color: #555;
 		}
 
 		.col-2-1 p {
@@ -1044,34 +1045,34 @@ footer a.subtitle-footer {
 		/* Main*/
 		/* Footer*/
 		footer .footer-container-1 .col-1 {
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			height: auto;
 			/* Déclaration du css footer .footer-container .div-1 , (Parent des sections)*/
 			background-color: #f2f2f2;
 			font-size: 11px;
-			height: auto;
-			width: 100%;
-			display: flex;
-			justify-content: space-between;
 		}
 
 		footer p.title-footer {
-			padding-top: 5px;
 			display: block;
-			text-align: center;
+			padding-top: 5px;
+			color: #111;
 			list-style: none;
+			text-align: center;
+			text-decoration: none;
 			font-weight: bold;
 			font-size: 15px;
-			text-decoration: none;
-			color: #111;
 		}
 
 		footer a.subtitle-footer {
 			display: block;
+			color: #555;
+			list-style: none;
 			text-align: center;
+			text-decoration: none;
 			line-height: 1.7;
 			cursor: pointer;
-			list-style: none;
-			text-decoration: none;
-			color: #555;
 		}
 
 		.col-2-1 p {
@@ -1080,4 +1081,11 @@ footer a.subtitle-footer {
 		}
 
 	}
+}
+
+.pedagogicalMention{
+	margin-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
 }
